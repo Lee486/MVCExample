@@ -2,11 +2,14 @@
 "use strict";
 
 jQuery(document).ready(function ($) {
-    loadSupplierJson();
-    $('.tablinks').on('click', function (evt) {
-        showChart($(this).attr('data-content'));
-        $(this).removeClass('active').addClass('active');
-    });
+    if (undefined != typeof($('#barchart')) && $('#barchart').length) {
+        console.log($('#barchart'));
+        loadSupplierJson();
+        $('.tablinks').on('click', function (evt) {
+            showChart($(this).attr('data-content'));
+            $(this).removeClass('active').addClass('active');
+        });
+    }
 });
 
 function loadSupplierJson() {
@@ -17,6 +20,10 @@ function loadSupplierJson() {
         async: false,
         dataType: "json",
         success: function (data) {
+            console.log(data);
+            $.each(data, function (i, elem) {
+                console.log(elem.name);
+            });
             generateChart("barchart", "bar", data);
             generateChart("linechart", "line", data);
             generateChart("boxplot", "boxplot", data);
@@ -47,3 +54,7 @@ function generateChart(chartId, chartType, data) {
         series: data
     });
 };
+
+function regionalLine(data) {
+
+}

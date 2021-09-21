@@ -22,10 +22,12 @@ namespace AMIPWeb.Controllers
     public class AjaxController : Controller
     {
         private DataService dataService;
+        private ForecastService forecastService;
 
         public AjaxController()
         {
             dataService = new DataService();
+            forecastService = new ForecastService();
         }
 
         // GET: /Ajax/SupplierData
@@ -50,7 +52,18 @@ namespace AMIPWeb.Controllers
             return Json(supplierData);
         }
 
+        // GET: /Ajax/GetSomeFood
+        public async Task<IActionResult> GetSomeFood()
+        {
+            List<string> food = await forecastService.GetSomeFood();
+            return Json(food);
+        }
 
+        public async Task<IActionResult> GetFooData()
+        {
+            List<TimeSeriesData> food = await forecastService.GetFooData();
+            return Json(food);
+        }
     } // controller
 
 } // namespace

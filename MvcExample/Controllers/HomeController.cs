@@ -28,6 +28,11 @@ namespace MvcExample.Controllers
             return View();
         }
 
+        public IActionResult Foo()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

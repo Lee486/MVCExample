@@ -12,9 +12,6 @@
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Services\" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Remove="wwwroot\shiny\index.html" />
     <Content Remove="wwwroot\shiny\.DS_Store" />
     <Content Remove="wwwroot\shiny\amipsite.js" />
