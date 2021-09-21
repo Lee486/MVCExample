@@ -12,6 +12,10 @@ jQuery(document).ready(function ($) {
     }
 });
 
+function loadBuildOutput() {
+
+}
+
 function loadSupplierJson() {
     // you could also pass parameters to the ajax function, for start and rows
     $.ajax({
