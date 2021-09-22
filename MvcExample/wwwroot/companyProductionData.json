@@ -1,0 +1,4013 @@
+[
+  { "title": "Company Production Data" },
+  {
+    "name": "Extrude Hone",
+    "data": [
+      {
+        "Date": "2/17/2020",
+        "Production": 0
+      },
+      {
+        "Date": "2/18/2020",
+        "Production": 50
+      },
+      {
+        "Date": "2/19/2020",
+        "Production": 60
+      },
+      {
+        "Date": "2/20/2020",
+        "Production": 72
+      },
+      {
+        "Date": "2/21/2020",
+        "Production": 86
+      },
+      {
+        "Date": "2/22/2020",
+        "Production": 104
+      },
+      {
+        "Date": "2/23/2020",
+        "Production": 124
+      },
+      {
+        "Date": "2/24/2020",
+        "Production": 149
+      },
+      {
+        "Date": "2/25/2020",
+        "Production": 179
+      },
+      {
+        "Date": "2/26/2020",
+        "Production": 215
+      },
+      {
+        "Date": "2/27/2020",
+        "Production": 258
+      },
+      {
+        "Date": "2/28/2020",
+        "Production": 310
+      },
+      {
+        "Date": "2/29/2020",
+        "Production": 372
+      },
+      {
+        "Date": "3/1/2020",
+        "Production": 446
+      },
+      {
+        "Date": "3/2/2020",
+        "Production": 535
+      },
+      {
+        "Date": "3/3/2020",
+        "Production": 642
+      },
+      {
+        "Date": "3/4/2020",
+        "Production": 770
+      },
+      {
+        "Date": "3/5/2020",
+        "Production": 924
+      },
+      {
+        "Date": "3/6/2020",
+        "Production": 1109
+      },
+      {
+        "Date": "3/7/2020",
+        "Production": 1331
+      },
+      {
+        "Date": "3/8/2020",
+        "Production": 1597
+      },
+      {
+        "Date": "3/9/2020",
+        "Production": 1917
+      },
+      {
+        "Date": "3/10/2020",
+        "Production": 2300
+      },
+      {
+        "Date": "3/11/2020",
+        "Production": 2760
+      },
+      {
+        "Date": "3/12/2020",
+        "Production": 3312
+      },
+      {
+        "Date": "3/13/2020",
+        "Production": 2269
+      },
+      {
+        "Date": "3/14/2020",
+        "Production": 2386
+      },
+      {
+        "Date": "3/15/2020",
+        "Production": 2502
+      },
+      {
+        "Date": "3/16/2020",
+        "Production": 2618
+      },
+      {
+        "Date": "3/17/2020",
+        "Production": 2734
+      },
+      {
+        "Date": "3/18/2020",
+        "Production": 2850
+      },
+      {
+        "Date": "3/19/2020",
+        "Production": 2966
+      },
+      {
+        "Date": "3/20/2020",
+        "Production": 3082
+      },
+      {
+        "Date": "3/21/2020",
+        "Production": 3198
+      },
+      {
+        "Date": "3/22/2020",
+        "Production": 3315
+      },
+      {
+        "Date": "3/23/2020",
+        "Production": 3431
+      },
+      {
+        "Date": "3/24/2020",
+        "Production": 3547
+      },
+      {
+        "Date": "3/25/2020",
+        "Production": 3663
+      },
+      {
+        "Date": "3/26/2020",
+        "Production": 3779
+      },
+      {
+        "Date": "3/27/2020",
+        "Production": 3895
+      },
+      {
+        "Date": "3/28/2020",
+        "Production": 4011
+      },
+      {
+        "Date": "3/29/2020",
+        "Production": 4128
+      },
+      {
+        "Date": "3/30/2020",
+        "Production": 4244
+      },
+      {
+        "Date": "3/31/2020",
+        "Production": 6366
+      },
+      {
+        "Date": "4/1/2020",
+        "Production": 9548
+      },
+      {
+        "Date": "4/2/2020",
+        "Production": 8498
+      },
+      {
+        "Date": "4/3/2020",
+        "Production": 7448
+      },
+      {
+        "Date": "4/4/2020",
+        "Production": 6398
+      },
+      {
+        "Date": "4/5/2020",
+        "Production": 5348
+      },
+      {
+        "Date": "4/6/2020",
+        "Production": 4298
+      },
+      {
+        "Date": "4/7/2020",
+        "Production": 3248
+      },
+      {
+        "Date": "4/8/2020",
+        "Production": 2198
+      },
+      {
+        "Date": "4/9/2020",
+        "Production": 1148
+      },
+      {
+        "Date": "4/10/2020",
+        "Production": 1378
+      },
+      {
+        "Date": "4/11/2020",
+        "Production": 1654
+      },
+      {
+        "Date": "4/12/2020",
+        "Production": 1984
+      },
+      {
+        "Date": "4/13/2020",
+        "Production": 2381
+      },
+      {
+        "Date": "4/14/2020",
+        "Production": 2857
+      },
+      {
+        "Date": "4/15/2020",
+        "Production": 3429
+      },
+      {
+        "Date": "4/16/2020",
+        "Production": 4115
+      },
+      {
+        "Date": "4/17/2020",
+        "Production": 4938
+      },
+      {
+        "Date": "4/18/2020",
+        "Production": 5925
+      },
+      {
+        "Date": "4/19/2020",
+        "Production": 7110
+      },
+      {
+        "Date": "4/20/2020",
+        "Production": 8532
+      },
+      {
+        "Date": "4/21/2020",
+        "Production": 10239
+      },
+      {
+        "Date": "4/22/2020",
+        "Production": 12287
+      },
+      {
+        "Date": "4/23/2020",
+        "Production": 14744
+      },
+      {
+        "Date": "4/24/2020",
+        "Production": 17693
+      },
+      {
+        "Date": "4/25/2020",
+        "Production": 21231
+      },
+      {
+        "Date": "4/26/2020",
+        "Production": 25477
+      },
+      {
+        "Date": "4/27/2020",
+        "Production": 30573
+      },
+      {
+        "Date": "4/28/2020",
+        "Production": 36688
+      },
+      {
+        "Date": "4/29/2020",
+        "Production": 44025
+      },
+      {
+        "Date": "4/30/2020",
+        "Production": 52830
+      },
+      {
+        "Date": "5/1/2020",
+        "Production": 42264
+      },
+      {
+        "Date": "5/2/2020",
+        "Production": 33811
+      },
+      {
+        "Date": "5/3/2020",
+        "Production": 27049
+      },
+      {
+        "Date": "5/4/2020",
+        "Production": 32459
+      },
+      {
+        "Date": "5/5/2020",
+        "Production": 38951
+      },
+      {
+        "Date": "5/6/2020",
+        "Production": 46741
+      },
+      {
+        "Date": "5/7/2020",
+        "Production": 56089
+      },
+      {
+        "Date": "5/8/2020",
+        "Production": 44871
+      },
+      {
+        "Date": "5/9/2020",
+        "Production": 35897
+      },
+      {
+        "Date": "5/10/2020",
+        "Production": 28718
+      },
+      {
+        "Date": "5/11/2020",
+        "Production": 22974
+      },
+      {
+        "Date": "5/12/2020",
+        "Production": 18379
+      },
+      {
+        "Date": "5/13/2020",
+        "Production": 14703
+      },
+      {
+        "Date": "5/14/2020",
+        "Production": 11763
+      },
+      {
+        "Date": "5/15/2020",
+        "Production": 14115
+      },
+      {
+        "Date": "5/16/2020",
+        "Production": 16938
+      },
+      {
+        "Date": "5/17/2020",
+        "Production": 20326
+      },
+      {
+        "Date": "5/18/2020",
+        "Production": 24391
+      },
+      {
+        "Date": "5/19/2020",
+        "Production": 29269
+      },
+      {
+        "Date": "5/20/2020",
+        "Production": 35123
+      },
+      {
+        "Date": "5/21/2020",
+        "Production": 42148
+      },
+      {
+        "Date": "5/22/2020",
+        "Production": 50577
+      },
+      {
+        "Date": "5/23/2020",
+        "Production": 60693
+      },
+      {
+        "Date": "5/24/2020",
+        "Production": 72831
+      },
+      {
+        "Date": "5/25/2020",
+        "Production": 87398
+      }
+    ]
+  },
+  {
+    "name": "Juggerbot3D",
+    "data": [
+      {
+        "Date": "2/17/2020",
+        "Production": 0
+      },
+      {
+        "Date": "2/18/2020",
+        "Production": 1000
+      },
+      {
+        "Date": "2/19/2020",
+        "Production": 1500
+      },
+      {
+        "Date": "2/20/2020",
+        "Production": 2250
+      },
+      {
+        "Date": "2/21/2020",
+        "Production": 3375
+      },
+      {
+        "Date": "2/22/2020",
+        "Production": 5063
+      },
+      {
+        "Date": "2/23/2020",
+        "Production": 7594
+      },
+      {
+        "Date": "2/24/2020",
+        "Production": 11391
+      },
+      {
+        "Date": "2/25/2020",
+        "Production": 17086
+      },
+      {
+        "Date": "2/26/2020",
+        "Production": 25629
+      },
+      {
+        "Date": "2/27/2020",
+        "Production": 38443
+      },
+      {
+        "Date": "2/28/2020",
+        "Production": 57665
+      },
+      {
+        "Date": "2/29/2020",
+        "Production": 86498
+      },
+      {
+        "Date": "3/1/2020",
+        "Production": 69198
+      },
+      {
+        "Date": "3/2/2020",
+        "Production": 55358
+      },
+      {
+        "Date": "3/3/2020",
+        "Production": 44287
+      },
+      {
+        "Date": "3/4/2020",
+        "Production": 35429
+      },
+      {
+        "Date": "3/5/2020",
+        "Production": 28344
+      },
+      {
+        "Date": "3/6/2020",
+        "Production": 22675
+      },
+      {
+        "Date": "3/7/2020",
+        "Production": 18140
+      },
+      {
+        "Date": "3/8/2020",
+        "Production": 14512
+      },
+      {
+        "Date": "3/9/2020",
+        "Production": 11610
+      },
+      {
+        "Date": "3/10/2020",
+        "Production": 12770
+      },
+      {
+        "Date": "3/11/2020",
+        "Production": 14048
+      },
+      {
+        "Date": "3/12/2020",
+        "Production": 15452
+      },
+      {
+        "Date": "3/13/2020",
+        "Production": 16997
+      },
+      {
+        "Date": "3/14/2020",
+        "Production": 18697
+      },
+      {
+        "Date": "3/15/2020",
+        "Production": 20567
+      },
+      {
+        "Date": "3/16/2020",
+        "Production": 22624
+      },
+      {
+        "Date": "3/17/2020",
+        "Production": 24886
+      },
+      {
+        "Date": "3/18/2020",
+        "Production": 27375
+      },
+      {
+        "Date": "3/19/2020",
+        "Production": 30112
+      },
+      {
+        "Date": "3/20/2020",
+        "Production": 33123
+      },
+      {
+        "Date": "3/21/2020",
+        "Production": 36436
+      },
+      {
+        "Date": "3/22/2020",
+        "Production": 40079
+      },
+      {
+        "Date": "3/23/2020",
+        "Production": 44087
+      },
+      {
+        "Date": "3/24/2020",
+        "Production": 48496
+      },
+      {
+        "Date": "3/25/2020",
+        "Production": 53345
+      },
+      {
+        "Date": "3/26/2020",
+        "Production": 58680
+      },
+      {
+        "Date": "3/27/2020",
+        "Production": 64548
+      },
+      {
+        "Date": "3/28/2020",
+        "Production": 71003
+      },
+      {
+        "Date": "3/29/2020",
+        "Production": 78103
+      },
+      {
+        "Date": "3/30/2020",
+        "Production": 85913
+      },
+      {
+        "Date": "3/31/2020",
+        "Production": 68731
+      },
+      {
+        "Date": "4/1/2020",
+        "Production": 54984
+      },
+      {
+        "Date": "4/2/2020",
+        "Production": 43988
+      },
+      {
+        "Date": "4/3/2020",
+        "Production": 35190
+      },
+      {
+        "Date": "4/4/2020",
+        "Production": 28152
+      },
+      {
+        "Date": "4/5/2020",
+        "Production": 22522
+      },
+      {
+        "Date": "4/6/2020",
+        "Production": 18017
+      },
+      {
+        "Date": "4/7/2020",
+        "Production": 14414
+      },
+      {
+        "Date": "4/8/2020",
+        "Production": 11531
+      },
+      {
+        "Date": "4/9/2020",
+        "Production": 9225
+      },
+      {
+        "Date": "4/10/2020",
+        "Production": 7380
+      },
+      {
+        "Date": "4/11/2020",
+        "Production": 5904
+      },
+      {
+        "Date": "4/12/2020",
+        "Production": 4723
+      },
+      {
+        "Date": "4/13/2020",
+        "Production": 3779
+      },
+      {
+        "Date": "4/14/2020",
+        "Production": 3023
+      },
+      {
+        "Date": "4/15/2020",
+        "Production": 3627
+      },
+      {
+        "Date": "4/16/2020",
+        "Production": 4353
+      },
+      {
+        "Date": "4/17/2020",
+        "Production": 5223
+      },
+      {
+        "Date": "4/18/2020",
+        "Production": 6268
+      },
+      {
+        "Date": "4/19/2020",
+        "Production": 7522
+      },
+      {
+        "Date": "4/20/2020",
+        "Production": 9026
+      },
+      {
+        "Date": "4/21/2020",
+        "Production": 10831
+      },
+      {
+        "Date": "4/22/2020",
+        "Production": 12998
+      },
+      {
+        "Date": "4/23/2020",
+        "Production": 15597
+      },
+      {
+        "Date": "4/24/2020",
+        "Production": 18716
+      },
+      {
+        "Date": "4/25/2020",
+        "Production": 22460
+      },
+      {
+        "Date": "4/26/2020",
+        "Production": 26952
+      },
+      {
+        "Date": "4/27/2020",
+        "Production": 32342
+      },
+      {
+        "Date": "4/28/2020",
+        "Production": 38810
+      },
+      {
+        "Date": "4/29/2020",
+        "Production": 46572
+      },
+      {
+        "Date": "4/30/2020",
+        "Production": 55887
+      },
+      {
+        "Date": "5/1/2020",
+        "Production": 67064
+      },
+      {
+        "Date": "5/2/2020",
+        "Production": 80477
+      },
+      {
+        "Date": "5/3/2020",
+        "Production": 64382
+      },
+      {
+        "Date": "5/4/2020",
+        "Production": 51505
+      },
+      {
+        "Date": "5/5/2020",
+        "Production": 41204
+      },
+      {
+        "Date": "5/6/2020",
+        "Production": 32963
+      },
+      {
+        "Date": "5/7/2020",
+        "Production": 26371
+      },
+      {
+        "Date": "5/8/2020",
+        "Production": 21097
+      },
+      {
+        "Date": "5/9/2020",
+        "Production": 16877
+      },
+      {
+        "Date": "5/10/2020",
+        "Production": 13502
+      },
+      {
+        "Date": "5/11/2020",
+        "Production": 10801
+      },
+      {
+        "Date": "5/12/2020",
+        "Production": 8641
+      },
+      {
+        "Date": "5/13/2020",
+        "Production": 6913
+      },
+      {
+        "Date": "5/14/2020",
+        "Production": 5530
+      },
+      {
+        "Date": "5/15/2020",
+        "Production": 4424
+      },
+      {
+        "Date": "5/16/2020",
+        "Production": 4867
+      },
+      {
+        "Date": "5/17/2020",
+        "Production": 5353
+      },
+      {
+        "Date": "5/18/2020",
+        "Production": 5889
+      },
+      {
+        "Date": "5/19/2020",
+        "Production": 6478
+      },
+      {
+        "Date": "5/20/2020",
+        "Production": 7125
+      },
+      {
+        "Date": "5/21/2020",
+        "Production": 7838
+      },
+      {
+        "Date": "5/22/2020",
+        "Production": 8622
+      },
+      {
+        "Date": "5/23/2020",
+        "Production": 9484
+      },
+      {
+        "Date": "5/24/2020",
+        "Production": 10432
+      },
+      {
+        "Date": "5/25/2020",
+        "Production": 11475
+      }
+    ]
+  },
+  {
+    "name": "Maker Gear",
+    "data": [
+      {
+        "Date": "2/17/2020",
+        "Production": 0
+      },
+      {
+        "Date": "2/18/2020",
+        "Production": 25
+      },
+      {
+        "Date": "2/19/2020",
+        "Production": 27
+      },
+      {
+        "Date": "2/20/2020",
+        "Production": 30
+      },
+      {
+        "Date": "2/21/2020",
+        "Production": 32
+      },
+      {
+        "Date": "2/22/2020",
+        "Production": 35
+      },
+      {
+        "Date": "2/23/2020",
+        "Production": 38
+      },
+      {
+        "Date": "2/24/2020",
+        "Production": 42
+      },
+      {
+        "Date": "2/25/2020",
+        "Production": 46
+      },
+      {
+        "Date": "2/26/2020",
+        "Production": 50
+      },
+      {
+        "Date": "2/27/2020",
+        "Production": 54
+      },
+      {
+        "Date": "2/28/2020",
+        "Production": 59
+      },
+      {
+        "Date": "2/29/2020",
+        "Production": 65
+      },
+      {
+        "Date": "3/1/2020",
+        "Production": 70
+      },
+      {
+        "Date": "3/2/2020",
+        "Production": 77
+      },
+      {
+        "Date": "3/3/2020",
+        "Production": 84
+      },
+      {
+        "Date": "3/4/2020",
+        "Production": 91
+      },
+      {
+        "Date": "3/5/2020",
+        "Production": 99
+      },
+      {
+        "Date": "3/6/2020",
+        "Production": 108
+      },
+      {
+        "Date": "3/7/2020",
+        "Production": 118
+      },
+      {
+        "Date": "3/8/2020",
+        "Production": 129
+      },
+      {
+        "Date": "3/9/2020",
+        "Production": 140
+      },
+      {
+        "Date": "3/10/2020",
+        "Production": 153
+      },
+      {
+        "Date": "3/11/2020",
+        "Production": 166
+      },
+      {
+        "Date": "3/12/2020",
+        "Production": 181
+      },
+      {
+        "Date": "3/13/2020",
+        "Production": 198
+      },
+      {
+        "Date": "3/14/2020",
+        "Production": 216
+      },
+      {
+        "Date": "3/15/2020",
+        "Production": 235
+      },
+      {
+        "Date": "3/16/2020",
+        "Production": 256
+      },
+      {
+        "Date": "3/17/2020",
+        "Production": 279
+      },
+      {
+        "Date": "3/18/2020",
+        "Production": 304
+      },
+      {
+        "Date": "3/19/2020",
+        "Production": 332
+      },
+      {
+        "Date": "3/20/2020",
+        "Production": 362
+      },
+      {
+        "Date": "3/21/2020",
+        "Production": 394
+      },
+      {
+        "Date": "3/22/2020",
+        "Production": 430
+      },
+      {
+        "Date": "3/23/2020",
+        "Production": 468
+      },
+      {
+        "Date": "3/24/2020",
+        "Production": 510
+      },
+      {
+        "Date": "3/25/2020",
+        "Production": 556
+      },
+      {
+        "Date": "3/26/2020",
+        "Production": 606
+      },
+      {
+        "Date": "3/27/2020",
+        "Production": 661
+      },
+      {
+        "Date": "3/28/2020",
+        "Production": 720
+      },
+      {
+        "Date": "3/29/2020",
+        "Production": 785
+      },
+      {
+        "Date": "3/30/2020",
+        "Production": 856
+      },
+      {
+        "Date": "3/31/2020",
+        "Production": 933
+      },
+      {
+        "Date": "4/1/2020",
+        "Production": 1017
+      },
+      {
+        "Date": "4/2/2020",
+        "Production": 1108
+      },
+      {
+        "Date": "4/3/2020",
+        "Production": 1208
+      },
+      {
+        "Date": "4/4/2020",
+        "Production": 1317
+      },
+      {
+        "Date": "4/5/2020",
+        "Production": 1435
+      },
+      {
+        "Date": "4/6/2020",
+        "Production": 1565
+      },
+      {
+        "Date": "4/7/2020",
+        "Production": 1705
+      },
+      {
+        "Date": "4/8/2020",
+        "Production": 1859
+      },
+      {
+        "Date": "4/9/2020",
+        "Production": 2026
+      },
+      {
+        "Date": "4/10/2020",
+        "Production": 2209
+      },
+      {
+        "Date": "4/11/2020",
+        "Production": 2407
+      },
+      {
+        "Date": "4/12/2020",
+        "Production": 2624
+      },
+      {
+        "Date": "4/13/2020",
+        "Production": 2860
+      },
+      {
+        "Date": "4/14/2020",
+        "Production": 3118
+      },
+      {
+        "Date": "4/15/2020",
+        "Production": 3398
+      },
+      {
+        "Date": "4/16/2020",
+        "Production": 3704
+      },
+      {
+        "Date": "4/17/2020",
+        "Production": 4037
+      },
+      {
+        "Date": "4/18/2020",
+        "Production": 4401
+      },
+      {
+        "Date": "4/19/2020",
+        "Production": 4797
+      },
+      {
+        "Date": "4/20/2020",
+        "Production": 5229
+      },
+      {
+        "Date": "4/21/2020",
+        "Production": 5699
+      },
+      {
+        "Date": "4/22/2020",
+        "Production": 6212
+      },
+      {
+        "Date": "4/23/2020",
+        "Production": 6771
+      },
+      {
+        "Date": "4/24/2020",
+        "Production": 7381
+      },
+      {
+        "Date": "4/25/2020",
+        "Production": 8045
+      },
+      {
+        "Date": "4/26/2020",
+        "Production": 8769
+      },
+      {
+        "Date": "4/27/2020",
+        "Production": 9558
+      },
+      {
+        "Date": "4/28/2020",
+        "Production": 10418
+      },
+      {
+        "Date": "4/29/2020",
+        "Production": 11356
+      },
+      {
+        "Date": "4/30/2020",
+        "Production": 12378
+      },
+      {
+        "Date": "5/1/2020",
+        "Production": 13492
+      },
+      {
+        "Date": "5/2/2020",
+        "Production": 14706
+      },
+      {
+        "Date": "5/3/2020",
+        "Production": 16030
+      },
+      {
+        "Date": "5/4/2020",
+        "Production": 17472
+      },
+      {
+        "Date": "5/5/2020",
+        "Production": 19045
+      },
+      {
+        "Date": "5/6/2020",
+        "Production": 20759
+      },
+      {
+        "Date": "5/7/2020",
+        "Production": 22627
+      },
+      {
+        "Date": "5/8/2020",
+        "Production": 24664
+      },
+      {
+        "Date": "5/9/2020",
+        "Production": 26884
+      },
+      {
+        "Date": "5/10/2020",
+        "Production": 29303
+      },
+      {
+        "Date": "5/11/2020",
+        "Production": 31940
+      },
+      {
+        "Date": "5/12/2020",
+        "Production": 34815
+      },
+      {
+        "Date": "5/13/2020",
+        "Production": 37948
+      },
+      {
+        "Date": "5/14/2020",
+        "Production": 41364
+      },
+      {
+        "Date": "5/15/2020",
+        "Production": 45086
+      },
+      {
+        "Date": "5/16/2020",
+        "Production": 49144
+      },
+      {
+        "Date": "5/17/2020",
+        "Production": 53567
+      },
+      {
+        "Date": "5/18/2020",
+        "Production": 58388
+      },
+      {
+        "Date": "5/19/2020",
+        "Production": 63643
+      },
+      {
+        "Date": "5/20/2020",
+        "Production": 69371
+      },
+      {
+        "Date": "5/21/2020",
+        "Production": 75614
+      },
+      {
+        "Date": "5/22/2020",
+        "Production": 82420
+      },
+      {
+        "Date": "5/23/2020",
+        "Production": 89837
+      },
+      {
+        "Date": "5/24/2020",
+        "Production": 89800
+      },
+      {
+        "Date": "5/25/2020",
+        "Production": 89000
+      }
+    ]
+  },
+  {
+    "name": "Open Additive",
+    "data": [
+      {
+        "Date": "2/17/2020",
+        "Production": 0
+      },
+      {
+        "Date": "2/18/2020",
+        "Production": 2000
+      },
+      {
+        "Date": "2/19/2020",
+        "Production": 2888
+      },
+      {
+        "Date": "2/20/2020",
+        "Production": 3776
+      },
+      {
+        "Date": "2/21/2020",
+        "Production": 4664
+      },
+      {
+        "Date": "2/22/2020",
+        "Production": 5552
+      },
+      {
+        "Date": "2/23/2020",
+        "Production": 6440
+      },
+      {
+        "Date": "2/24/2020",
+        "Production": 7328
+      },
+      {
+        "Date": "2/25/2020",
+        "Production": 8216
+      },
+      {
+        "Date": "2/26/2020",
+        "Production": 9104
+      },
+      {
+        "Date": "2/27/2020",
+        "Production": 9992
+      },
+      {
+        "Date": "2/28/2020",
+        "Production": 10880
+      },
+      {
+        "Date": "2/29/2020",
+        "Production": 11768
+      },
+      {
+        "Date": "3/1/2020",
+        "Production": 12656
+      },
+      {
+        "Date": "3/2/2020",
+        "Production": 13544
+      },
+      {
+        "Date": "3/3/2020",
+        "Production": 14432
+      },
+      {
+        "Date": "3/4/2020",
+        "Production": 15320
+      },
+      {
+        "Date": "3/5/2020",
+        "Production": 16208
+      },
+      {
+        "Date": "3/6/2020",
+        "Production": 17096
+      },
+      {
+        "Date": "3/7/2020",
+        "Production": 17984
+      },
+      {
+        "Date": "3/8/2020",
+        "Production": 18872
+      },
+      {
+        "Date": "3/9/2020",
+        "Production": 19760
+      },
+      {
+        "Date": "3/10/2020",
+        "Production": 20648
+      },
+      {
+        "Date": "3/11/2020",
+        "Production": 21536
+      },
+      {
+        "Date": "3/12/2020",
+        "Production": 22424
+      },
+      {
+        "Date": "3/13/2020",
+        "Production": 23312
+      },
+      {
+        "Date": "3/14/2020",
+        "Production": 24200
+      },
+      {
+        "Date": "3/15/2020",
+        "Production": 25088
+      },
+      {
+        "Date": "3/16/2020",
+        "Production": 25976
+      },
+      {
+        "Date": "3/17/2020",
+        "Production": 26864
+      },
+      {
+        "Date": "3/18/2020",
+        "Production": 27752
+      },
+      {
+        "Date": "3/19/2020",
+        "Production": 28640
+      },
+      {
+        "Date": "3/20/2020",
+        "Production": 29528
+      },
+      {
+        "Date": "3/21/2020",
+        "Production": 30416
+      },
+      {
+        "Date": "3/22/2020",
+        "Production": 31304
+      },
+      {
+        "Date": "3/23/2020",
+        "Production": 32192
+      },
+      {
+        "Date": "3/24/2020",
+        "Production": 33080
+      },
+      {
+        "Date": "3/25/2020",
+        "Production": 33968
+      },
+      {
+        "Date": "3/26/2020",
+        "Production": 34856
+      },
+      {
+        "Date": "3/27/2020",
+        "Production": 35744
+      },
+      {
+        "Date": "3/28/2020",
+        "Production": 36632
+      },
+      {
+        "Date": "3/29/2020",
+        "Production": 37520
+      },
+      {
+        "Date": "3/30/2020",
+        "Production": 38408
+      },
+      {
+        "Date": "3/31/2020",
+        "Production": 39296
+      },
+      {
+        "Date": "4/1/2020",
+        "Production": 40184
+      },
+      {
+        "Date": "4/2/2020",
+        "Production": 41072
+      },
+      {
+        "Date": "4/3/2020",
+        "Production": 41960
+      },
+      {
+        "Date": "4/4/2020",
+        "Production": 42848
+      },
+      {
+        "Date": "4/5/2020",
+        "Production": 43736
+      },
+      {
+        "Date": "4/6/2020",
+        "Production": 44624
+      },
+      {
+        "Date": "4/7/2020",
+        "Production": 45512
+      },
+      {
+        "Date": "4/8/2020",
+        "Production": 46400
+      },
+      {
+        "Date": "4/9/2020",
+        "Production": 47288
+      },
+      {
+        "Date": "4/10/2020",
+        "Production": 48176
+      },
+      {
+        "Date": "4/11/2020",
+        "Production": 49064
+      },
+      {
+        "Date": "4/12/2020",
+        "Production": 49952
+      },
+      {
+        "Date": "4/13/2020",
+        "Production": 50840
+      },
+      {
+        "Date": "4/14/2020",
+        "Production": 51728
+      },
+      {
+        "Date": "4/15/2020",
+        "Production": 52616
+      },
+      {
+        "Date": "4/16/2020",
+        "Production": 53504
+      },
+      {
+        "Date": "4/17/2020",
+        "Production": 54392
+      },
+      {
+        "Date": "4/18/2020",
+        "Production": 55280
+      },
+      {
+        "Date": "4/19/2020",
+        "Production": 56168
+      },
+      {
+        "Date": "4/20/2020",
+        "Production": 57056
+      },
+      {
+        "Date": "4/21/2020",
+        "Production": 57944
+      },
+      {
+        "Date": "4/22/2020",
+        "Production": 58832
+      },
+      {
+        "Date": "4/23/2020",
+        "Production": 59720
+      },
+      {
+        "Date": "4/24/2020",
+        "Production": 60608
+      },
+      {
+        "Date": "4/25/2020",
+        "Production": 61496
+      },
+      {
+        "Date": "4/26/2020",
+        "Production": 62384
+      },
+      {
+        "Date": "4/27/2020",
+        "Production": 63272
+      },
+      {
+        "Date": "4/28/2020",
+        "Production": 64160
+      },
+      {
+        "Date": "4/29/2020",
+        "Production": 65048
+      },
+      {
+        "Date": "4/30/2020",
+        "Production": 65936
+      },
+      {
+        "Date": "5/1/2020",
+        "Production": 66824
+      },
+      {
+        "Date": "5/2/2020",
+        "Production": 67712
+      },
+      {
+        "Date": "5/3/2020",
+        "Production": 68600
+      },
+      {
+        "Date": "5/4/2020",
+        "Production": 69488
+      },
+      {
+        "Date": "5/5/2020",
+        "Production": 70376
+      },
+      {
+        "Date": "5/6/2020",
+        "Production": 71264
+      },
+      {
+        "Date": "5/7/2020",
+        "Production": 72152
+      },
+      {
+        "Date": "5/8/2020",
+        "Production": 73040
+      },
+      {
+        "Date": "5/9/2020",
+        "Production": 73928
+      },
+      {
+        "Date": "5/10/2020",
+        "Production": 74816
+      },
+      {
+        "Date": "5/11/2020",
+        "Production": 75704
+      },
+      {
+        "Date": "5/12/2020",
+        "Production": 76592
+      },
+      {
+        "Date": "5/13/2020",
+        "Production": 77480
+      },
+      {
+        "Date": "5/14/2020",
+        "Production": 78368
+      },
+      {
+        "Date": "5/15/2020",
+        "Production": 79256
+      },
+      {
+        "Date": "5/16/2020",
+        "Production": 80144
+      },
+      {
+        "Date": "5/17/2020",
+        "Production": 81032
+      },
+      {
+        "Date": "5/18/2020",
+        "Production": 81920
+      },
+      {
+        "Date": "5/19/2020",
+        "Production": 82808
+      },
+      {
+        "Date": "5/20/2020",
+        "Production": 83696
+      },
+      {
+        "Date": "5/21/2020",
+        "Production": 84584
+      },
+      {
+        "Date": "5/22/2020",
+        "Production": 85472
+      },
+      {
+        "Date": "5/23/2020",
+        "Production": 86360
+      },
+      {
+        "Date": "5/24/2020",
+        "Production": 87248
+      },
+      {
+        "Date": "5/25/2020",
+        "Production": 88136
+      }
+    ]
+  },
+  {
+    "name": "Oerlikon AM",
+    "data": [
+      {
+        "Date": "2/17/2020",
+        "Production": 0
+      },
+      {
+        "Date": "2/18/2020",
+        "Production": 100
+      },
+      {
+        "Date": "2/19/2020",
+        "Production": 1100
+      },
+      {
+        "Date": "2/20/2020",
+        "Production": 2100
+      },
+      {
+        "Date": "2/21/2020",
+        "Production": 3100
+      },
+      {
+        "Date": "2/22/2020",
+        "Production": 4100
+      },
+      {
+        "Date": "2/23/2020",
+        "Production": 5100
+      },
+      {
+        "Date": "2/24/2020",
+        "Production": 6100
+      },
+      {
+        "Date": "2/25/2020",
+        "Production": 7100
+      },
+      {
+        "Date": "2/26/2020",
+        "Production": 8100
+      },
+      {
+        "Date": "2/27/2020",
+        "Production": 9100
+      },
+      {
+        "Date": "2/28/2020",
+        "Production": 10100
+      },
+      {
+        "Date": "2/29/2020",
+        "Production": 11100
+      },
+      {
+        "Date": "3/1/2020",
+        "Production": 12100
+      },
+      {
+        "Date": "3/2/2020",
+        "Production": 13100
+      },
+      {
+        "Date": "3/3/2020",
+        "Production": 14100
+      },
+      {
+        "Date": "3/4/2020",
+        "Production": 15100
+      },
+      {
+        "Date": "3/5/2020",
+        "Production": 16100
+      },
+      {
+        "Date": "3/6/2020",
+        "Production": 17100
+      },
+      {
+        "Date": "3/7/2020",
+        "Production": 18100
+      },
+      {
+        "Date": "3/8/2020",
+        "Production": 19100
+      },
+      {
+        "Date": "3/9/2020",
+        "Production": 20100
+      },
+      {
+        "Date": "3/10/2020",
+        "Production": 21100
+      },
+      {
+        "Date": "3/11/2020",
+        "Production": 22100
+      },
+      {
+        "Date": "3/12/2020",
+        "Production": 23100
+      },
+      {
+        "Date": "3/13/2020",
+        "Production": 24100
+      },
+      {
+        "Date": "3/14/2020",
+        "Production": 25100
+      },
+      {
+        "Date": "3/15/2020",
+        "Production": 26100
+      },
+      {
+        "Date": "3/16/2020",
+        "Production": 27100
+      },
+      {
+        "Date": "3/17/2020",
+        "Production": 28100
+      },
+      {
+        "Date": "3/18/2020",
+        "Production": 29100
+      },
+      {
+        "Date": "3/19/2020",
+        "Production": 30100
+      },
+      {
+        "Date": "3/20/2020",
+        "Production": 31100
+      },
+      {
+        "Date": "3/21/2020",
+        "Production": 32100
+      },
+      {
+        "Date": "3/22/2020",
+        "Production": 33100
+      },
+      {
+        "Date": "3/23/2020",
+        "Production": 34100
+      },
+      {
+        "Date": "3/24/2020",
+        "Production": 35100
+      },
+      {
+        "Date": "3/25/2020",
+        "Production": 36100
+      },
+      {
+        "Date": "3/26/2020",
+        "Production": 37100
+      },
+      {
+        "Date": "3/27/2020",
+        "Production": 38100
+      },
+      {
+        "Date": "3/28/2020",
+        "Production": 39100
+      },
+      {
+        "Date": "3/29/2020",
+        "Production": 40100
+      },
+      {
+        "Date": "3/30/2020",
+        "Production": 41100
+      },
+      {
+        "Date": "3/31/2020",
+        "Production": 42100
+      },
+      {
+        "Date": "4/1/2020",
+        "Production": 43100
+      },
+      {
+        "Date": "4/2/2020",
+        "Production": 44100
+      },
+      {
+        "Date": "4/3/2020",
+        "Production": 45100
+      },
+      {
+        "Date": "4/4/2020",
+        "Production": 46100
+      },
+      {
+        "Date": "4/5/2020",
+        "Production": 47100
+      },
+      {
+        "Date": "4/6/2020",
+        "Production": 48100
+      },
+      {
+        "Date": "4/7/2020",
+        "Production": 49100
+      },
+      {
+        "Date": "4/8/2020",
+        "Production": 50100
+      },
+      {
+        "Date": "4/9/2020",
+        "Production": 51100
+      },
+      {
+        "Date": "4/10/2020",
+        "Production": 52100
+      },
+      {
+        "Date": "4/11/2020",
+        "Production": 53100
+      },
+      {
+        "Date": "4/12/2020",
+        "Production": 54100
+      },
+      {
+        "Date": "4/13/2020",
+        "Production": 55100
+      },
+      {
+        "Date": "4/14/2020",
+        "Production": 56100
+      },
+      {
+        "Date": "4/15/2020",
+        "Production": 57100
+      },
+      {
+        "Date": "4/16/2020",
+        "Production": 58100
+      },
+      {
+        "Date": "4/17/2020",
+        "Production": 59100
+      },
+      {
+        "Date": "4/18/2020",
+        "Production": 60100
+      },
+      {
+        "Date": "4/19/2020",
+        "Production": 72120
+      },
+      {
+        "Date": "4/20/2020",
+        "Production": 86544
+      },
+      {
+        "Date": "4/21/2020",
+        "Production": 86544
+      },
+      {
+        "Date": "4/22/2020",
+        "Production": 86544
+      },
+      {
+        "Date": "4/23/2020",
+        "Production": 86544
+      },
+      {
+        "Date": "4/24/2020",
+        "Production": 86544
+      },
+      {
+        "Date": "4/25/2020",
+        "Production": 86544
+      },
+      {
+        "Date": "4/26/2020",
+        "Production": 86544
+      },
+      {
+        "Date": "4/27/2020",
+        "Production": 86544
+      },
+      {
+        "Date": "4/28/2020",
+        "Production": 86544
+      },
+      {
+        "Date": "4/29/2020",
+        "Production": 77889.6
+      },
+      {
+        "Date": "4/30/2020",
+        "Production": 70100.64
+      },
+      {
+        "Date": "5/1/2020",
+        "Production": 63090.576
+      },
+      {
+        "Date": "5/2/2020",
+        "Production": 56781.5184
+      },
+      {
+        "Date": "5/3/2020",
+        "Production": 51103.36656
+      },
+      {
+        "Date": "5/4/2020",
+        "Production": 45993.0299
+      },
+      {
+        "Date": "5/5/2020",
+        "Production": 41393.72691
+      },
+      {
+        "Date": "5/6/2020",
+        "Production": 37254.35422
+      },
+      {
+        "Date": "5/7/2020",
+        "Production": 33528.9188
+      },
+      {
+        "Date": "5/8/2020",
+        "Production": 33528.9188
+      },
+      {
+        "Date": "5/9/2020",
+        "Production": 33528.9188
+      },
+      {
+        "Date": "5/10/2020",
+        "Production": 33528.9188
+      },
+      {
+        "Date": "5/11/2020",
+        "Production": 33528.9188
+      },
+      {
+        "Date": "5/12/2020",
+        "Production": 33528.9188
+      },
+      {
+        "Date": "5/13/2020",
+        "Production": 33528.9188
+      },
+      {
+        "Date": "5/14/2020",
+        "Production": 33528.9188
+      },
+      {
+        "Date": "5/15/2020",
+        "Production": 33528.9188
+      },
+      {
+        "Date": "5/16/2020",
+        "Production": 33528.9188
+      },
+      {
+        "Date": "5/17/2020",
+        "Production": 40234.70256
+      },
+      {
+        "Date": "5/18/2020",
+        "Production": 48281.64307
+      },
+      {
+        "Date": "5/19/2020",
+        "Production": 57937.97169
+      },
+      {
+        "Date": "5/20/2020",
+        "Production": 69525.56602
+      },
+      {
+        "Date": "5/21/2020",
+        "Production": 83430.67923
+      },
+      {
+        "Date": "5/22/2020",
+        "Production": 83330.67923
+      },
+      {
+        "Date": "5/23/2020",
+        "Production": 83230.67923
+      },
+      {
+        "Date": "5/24/2020",
+        "Production": 83130.67923
+      },
+      {
+        "Date": "5/25/2020",
+        "Production": 83030.67923
+      }
+    ]
+  },
+  {
+    "name": "NobleTek",
+    "data": [
+      {
+        "Date": "2/17/2020",
+        "Production": 0
+      },
+      {
+        "Date": "2/18/2020",
+        "Production": 200
+      },
+      {
+        "Date": "2/19/2020",
+        "Production": 380
+      },
+      {
+        "Date": "2/20/2020",
+        "Production": 722
+      },
+      {
+        "Date": "2/21/2020",
+        "Production": 1371.8
+      },
+      {
+        "Date": "2/22/2020",
+        "Production": 2606.42
+      },
+      {
+        "Date": "2/23/2020",
+        "Production": 4952.198
+      },
+      {
+        "Date": "2/24/2020",
+        "Production": 9409.1762
+      },
+      {
+        "Date": "2/25/2020",
+        "Production": 17877.43478
+      },
+      {
+        "Date": "2/26/2020",
+        "Production": 33967.12608
+      },
+      {
+        "Date": "2/27/2020",
+        "Production": 64537.53956
+      },
+      {
+        "Date": "2/28/2020",
+        "Production": 122621.3252
+      },
+      {
+        "Date": "2/29/2020",
+        "Production": 232980.5178
+      },
+      {
+        "Date": "3/1/2020",
+        "Production": 442662.9838
+      },
+      {
+        "Date": "3/2/2020",
+        "Production": 841059.6692
+      },
+      {
+        "Date": "3/3/2020",
+        "Production": 756953.7023
+      },
+      {
+        "Date": "3/4/2020",
+        "Production": 681258.3321
+      },
+      {
+        "Date": "3/5/2020",
+        "Production": 613132.4989
+      },
+      {
+        "Date": "3/6/2020",
+        "Production": 551819.249
+      },
+      {
+        "Date": "3/7/2020",
+        "Production": 496637.3241
+      },
+      {
+        "Date": "3/8/2020",
+        "Production": 446973.5917
+      },
+      {
+        "Date": "3/9/2020",
+        "Production": 402276.2325
+      },
+      {
+        "Date": "3/10/2020",
+        "Production": 362048.6093
+      },
+      {
+        "Date": "3/11/2020",
+        "Production": 325843.7483
+      },
+      {
+        "Date": "3/12/2020",
+        "Production": 293259.3735
+      },
+      {
+        "Date": "3/13/2020",
+        "Production": 263933.4362
+      },
+      {
+        "Date": "3/14/2020",
+        "Production": 237540.0925
+      },
+      {
+        "Date": "3/15/2020",
+        "Production": 213786.0833
+      },
+      {
+        "Date": "3/16/2020",
+        "Production": 192407.475
+      },
+      {
+        "Date": "3/17/2020",
+        "Production": 173166.7275
+      },
+      {
+        "Date": "3/18/2020",
+        "Production": 155850.0547
+      },
+      {
+        "Date": "3/19/2020",
+        "Production": 140265.0492
+      },
+      {
+        "Date": "3/20/2020",
+        "Production": 126238.5443
+      },
+      {
+        "Date": "3/21/2020",
+        "Production": 113614.6899
+      },
+      {
+        "Date": "3/22/2020",
+        "Production": 102253.2209
+      },
+      {
+        "Date": "3/23/2020",
+        "Production": 92027.89881
+      },
+      {
+        "Date": "3/24/2020",
+        "Production": 82825.10893
+      },
+      {
+        "Date": "3/25/2020",
+        "Production": 74542.59803
+      },
+      {
+        "Date": "3/26/2020",
+        "Production": 67088.33823
+      },
+      {
+        "Date": "3/27/2020",
+        "Production": 60379.50441
+      },
+      {
+        "Date": "3/28/2020",
+        "Production": 54341.55397
+      },
+      {
+        "Date": "3/29/2020",
+        "Production": 48907.39857
+      },
+      {
+        "Date": "3/30/2020",
+        "Production": 44016.65871
+      },
+      {
+        "Date": "3/31/2020",
+        "Production": 39614.99284
+      },
+      {
+        "Date": "4/1/2020",
+        "Production": 35653.49356
+      },
+      {
+        "Date": "4/2/2020",
+        "Production": 32088.1442
+      },
+      {
+        "Date": "4/3/2020",
+        "Production": 28879.32978
+      },
+      {
+        "Date": "4/4/2020",
+        "Production": 25991.3968
+      },
+      {
+        "Date": "4/5/2020",
+        "Production": 23392.25712
+      },
+      {
+        "Date": "4/6/2020",
+        "Production": 21053.03141
+      },
+      {
+        "Date": "4/7/2020",
+        "Production": 21103.03141
+      },
+      {
+        "Date": "4/8/2020",
+        "Production": 21153.03141
+      },
+      {
+        "Date": "4/9/2020",
+        "Production": 21203.03141
+      },
+      {
+        "Date": "4/10/2020",
+        "Production": 21253.03141
+      },
+      {
+        "Date": "4/11/2020",
+        "Production": 21303.03141
+      },
+      {
+        "Date": "4/12/2020",
+        "Production": 21353.03141
+      },
+      {
+        "Date": "4/13/2020",
+        "Production": 21403.03141
+      },
+      {
+        "Date": "4/14/2020",
+        "Production": 21453.03141
+      },
+      {
+        "Date": "4/15/2020",
+        "Production": 21503.03141
+      },
+      {
+        "Date": "4/16/2020",
+        "Production": 21553.03141
+      },
+      {
+        "Date": "4/17/2020",
+        "Production": 21603.03141
+      },
+      {
+        "Date": "4/18/2020",
+        "Production": 21653.03141
+      },
+      {
+        "Date": "4/19/2020",
+        "Production": 21703.03141
+      },
+      {
+        "Date": "4/20/2020",
+        "Production": 21753.03141
+      },
+      {
+        "Date": "4/21/2020",
+        "Production": 21803.03141
+      },
+      {
+        "Date": "4/22/2020",
+        "Production": 21853.03141
+      },
+      {
+        "Date": "4/23/2020",
+        "Production": 21903.03141
+      },
+      {
+        "Date": "4/24/2020",
+        "Production": 21953.03141
+      },
+      {
+        "Date": "4/25/2020",
+        "Production": 22003.03141
+      },
+      {
+        "Date": "4/26/2020",
+        "Production": 22053.03141
+      },
+      {
+        "Date": "4/27/2020",
+        "Production": 22103.03141
+      },
+      {
+        "Date": "4/28/2020",
+        "Production": 22153.03141
+      },
+      {
+        "Date": "4/29/2020",
+        "Production": 22203.03141
+      },
+      {
+        "Date": "4/30/2020",
+        "Production": 22253.03141
+      },
+      {
+        "Date": "5/1/2020",
+        "Production": 22303.03141
+      },
+      {
+        "Date": "5/2/2020",
+        "Production": 22353.03141
+      },
+      {
+        "Date": "5/3/2020",
+        "Production": 22403.03141
+      },
+      {
+        "Date": "5/4/2020",
+        "Production": 22453.03141
+      },
+      {
+        "Date": "5/5/2020",
+        "Production": 22503.03141
+      },
+      {
+        "Date": "5/6/2020",
+        "Production": 22553.03141
+      },
+      {
+        "Date": "5/7/2020",
+        "Production": 22603.03141
+      },
+      {
+        "Date": "5/8/2020",
+        "Production": 22653.03141
+      },
+      {
+        "Date": "5/9/2020",
+        "Production": 22703.03141
+      },
+      {
+        "Date": "5/10/2020",
+        "Production": 22753.03141
+      },
+      {
+        "Date": "5/11/2020",
+        "Production": 22803.03141
+      },
+      {
+        "Date": "5/12/2020",
+        "Production": 22853.03141
+      },
+      {
+        "Date": "5/13/2020",
+        "Production": 22903.03141
+      },
+      {
+        "Date": "5/14/2020",
+        "Production": 22953.03141
+      },
+      {
+        "Date": "5/15/2020",
+        "Production": 23003.03141
+      },
+      {
+        "Date": "5/16/2020",
+        "Production": 23053.03141
+      },
+      {
+        "Date": "5/17/2020",
+        "Production": 23103.03141
+      },
+      {
+        "Date": "5/18/2020",
+        "Production": 23153.03141
+      },
+      {
+        "Date": "5/19/2020",
+        "Production": 23203.03141
+      },
+      {
+        "Date": "5/20/2020",
+        "Production": 23253.03141
+      },
+      {
+        "Date": "5/21/2020",
+        "Production": 23303.03141
+      },
+      {
+        "Date": "5/22/2020",
+        "Production": 23353.03141
+      },
+      {
+        "Date": "5/23/2020",
+        "Production": 23403.03141
+      },
+      {
+        "Date": "5/24/2020",
+        "Production": 23453.03141
+      },
+      {
+        "Date": "5/25/2020",
+        "Production": 23503.03141
+      }
+    ]
+  },
+  {
+    "name": "MTek3D",
+    "data": [
+      {
+        "Date": "2/17/2020",
+        "Production": 0
+      },
+      {
+        "Date": "2/18/2020",
+        "Production": 10000
+      },
+      {
+        "Date": "2/19/2020",
+        "Production": 9900
+      },
+      {
+        "Date": "2/20/2020",
+        "Production": 9801
+      },
+      {
+        "Date": "2/21/2020",
+        "Production": 9702.99
+      },
+      {
+        "Date": "2/22/2020",
+        "Production": 9605.9601
+      },
+      {
+        "Date": "2/23/2020",
+        "Production": 9509.900499
+      },
+      {
+        "Date": "2/24/2020",
+        "Production": 9414.801494
+      },
+      {
+        "Date": "2/25/2020",
+        "Production": 9320.653479
+      },
+      {
+        "Date": "2/26/2020",
+        "Production": 9227.446944
+      },
+      {
+        "Date": "2/27/2020",
+        "Production": 9135.172475
+      },
+      {
+        "Date": "2/28/2020",
+        "Production": 9043.82075
+      },
+      {
+        "Date": "2/29/2020",
+        "Production": 8953.382543
+      },
+      {
+        "Date": "3/1/2020",
+        "Production": 8863.848717
+      },
+      {
+        "Date": "3/2/2020",
+        "Production": 8775.21023
+      },
+      {
+        "Date": "3/3/2020",
+        "Production": 8687.458128
+      },
+      {
+        "Date": "3/4/2020",
+        "Production": 8600.583546
+      },
+      {
+        "Date": "3/5/2020",
+        "Production": 8514.577711
+      },
+      {
+        "Date": "3/6/2020",
+        "Production": 8429.431934
+      },
+      {
+        "Date": "3/7/2020",
+        "Production": 8345.137615
+      },
+      {
+        "Date": "3/8/2020",
+        "Production": 8261.686238
+      },
+      {
+        "Date": "3/9/2020",
+        "Production": 8179.069376
+      },
+      {
+        "Date": "3/10/2020",
+        "Production": 8097.278682
+      },
+      {
+        "Date": "3/11/2020",
+        "Production": 8016.305895
+      },
+      {
+        "Date": "3/12/2020",
+        "Production": 7936.142836
+      },
+      {
+        "Date": "3/13/2020",
+        "Production": 7856.781408
+      },
+      {
+        "Date": "3/14/2020",
+        "Production": 7778.213594
+      },
+      {
+        "Date": "3/15/2020",
+        "Production": 7700.431458
+      },
+      {
+        "Date": "3/16/2020",
+        "Production": 7623.427143
+      },
+      {
+        "Date": "3/17/2020",
+        "Production": 7547.192872
+      },
+      {
+        "Date": "3/18/2020",
+        "Production": 7471.720943
+      },
+      {
+        "Date": "3/19/2020",
+        "Production": 7397.003734
+      },
+      {
+        "Date": "3/20/2020",
+        "Production": 7323.033697
+      },
+      {
+        "Date": "3/21/2020",
+        "Production": 7249.80336
+      },
+      {
+        "Date": "3/22/2020",
+        "Production": 7177.305326
+      },
+      {
+        "Date": "3/23/2020",
+        "Production": 7105.532273
+      },
+      {
+        "Date": "3/24/2020",
+        "Production": 7034.47695
+      },
+      {
+        "Date": "3/25/2020",
+        "Production": 6964.13218
+      },
+      {
+        "Date": "3/26/2020",
+        "Production": 6894.490859
+      },
+      {
+        "Date": "3/27/2020",
+        "Production": 6825.54595
+      },
+      {
+        "Date": "3/28/2020",
+        "Production": 6757.290491
+      },
+      {
+        "Date": "3/29/2020",
+        "Production": 6689.717586
+      },
+      {
+        "Date": "3/30/2020",
+        "Production": 6622.82041
+      },
+      {
+        "Date": "3/31/2020",
+        "Production": 6556.592206
+      },
+      {
+        "Date": "4/1/2020",
+        "Production": 6491.026284
+      },
+      {
+        "Date": "4/2/2020",
+        "Production": 6426.116021
+      },
+      {
+        "Date": "4/3/2020",
+        "Production": 6361.854861
+      },
+      {
+        "Date": "4/4/2020",
+        "Production": 6298.236312
+      },
+      {
+        "Date": "4/5/2020",
+        "Production": 6235.253949
+      },
+      {
+        "Date": "4/6/2020",
+        "Production": 6172.901409
+      },
+      {
+        "Date": "4/7/2020",
+        "Production": 6111.172395
+      },
+      {
+        "Date": "4/8/2020",
+        "Production": 6050.060671
+      },
+      {
+        "Date": "4/9/2020",
+        "Production": 5989.560065
+      },
+      {
+        "Date": "4/10/2020",
+        "Production": 5929.664464
+      },
+      {
+        "Date": "4/11/2020",
+        "Production": 5870.367819
+      },
+      {
+        "Date": "4/12/2020",
+        "Production": 5811.664141
+      },
+      {
+        "Date": "4/13/2020",
+        "Production": 5753.5475
+      },
+      {
+        "Date": "4/14/2020",
+        "Production": 5696.012025
+      },
+      {
+        "Date": "4/15/2020",
+        "Production": 5639.051905
+      },
+      {
+        "Date": "4/16/2020",
+        "Production": 5582.661385
+      },
+      {
+        "Date": "4/17/2020",
+        "Production": 5526.834772
+      },
+      {
+        "Date": "4/18/2020",
+        "Production": 5471.566424
+      },
+      {
+        "Date": "4/19/2020",
+        "Production": 5416.85076
+      },
+      {
+        "Date": "4/20/2020",
+        "Production": 5362.682252
+      },
+      {
+        "Date": "4/21/2020",
+        "Production": 5309.05543
+      },
+      {
+        "Date": "4/22/2020",
+        "Production": 5255.964875
+      },
+      {
+        "Date": "4/23/2020",
+        "Production": 5203.405227
+      },
+      {
+        "Date": "4/24/2020",
+        "Production": 5151.371174
+      },
+      {
+        "Date": "4/25/2020",
+        "Production": 5099.857462
+      },
+      {
+        "Date": "4/26/2020",
+        "Production": 5048.858888
+      },
+      {
+        "Date": "4/27/2020",
+        "Production": 4998.370299
+      },
+      {
+        "Date": "4/28/2020",
+        "Production": 4948.386596
+      },
+      {
+        "Date": "4/29/2020",
+        "Production": 4898.90273
+      },
+      {
+        "Date": "4/30/2020",
+        "Production": 4849.913703
+      },
+      {
+        "Date": "5/1/2020",
+        "Production": 4801.414566
+      },
+      {
+        "Date": "5/2/2020",
+        "Production": 4753.40042
+      },
+      {
+        "Date": "5/3/2020",
+        "Production": 4705.866416
+      },
+      {
+        "Date": "5/4/2020",
+        "Production": 4658.807752
+      },
+      {
+        "Date": "5/5/2020",
+        "Production": 4612.219674
+      },
+      {
+        "Date": "5/6/2020",
+        "Production": 4566.097477
+      },
+      {
+        "Date": "5/7/2020",
+        "Production": 4520.436503
+      },
+      {
+        "Date": "5/8/2020",
+        "Production": 4475.232138
+      },
+      {
+        "Date": "5/9/2020",
+        "Production": 4430.479816
+      },
+      {
+        "Date": "5/10/2020",
+        "Production": 4022.49749
+      },
+      {
+        "Date": "5/11/2020",
+        "Production": 3954.4582
+      },
+      {
+        "Date": "5/12/2020",
+        "Production": 3886.41891
+      },
+      {
+        "Date": "5/13/2020",
+        "Production": 3818.37962
+      },
+      {
+        "Date": "5/14/2020",
+        "Production": 3750.34033
+      },
+      {
+        "Date": "5/15/2020",
+        "Production": 3682.30104
+      },
+      {
+        "Date": "5/16/2020",
+        "Production": 3614.26175
+      },
+      {
+        "Date": "5/17/2020",
+        "Production": 3546.22246
+      },
+      {
+        "Date": "5/18/2020",
+        "Production": 3478.18317
+      },
+      {
+        "Date": "5/19/2020",
+        "Production": 3410.143879
+      },
+      {
+        "Date": "5/20/2020",
+        "Production": 3342.104589
+      },
+      {
+        "Date": "5/21/2020",
+        "Production": 3274.065299
+      },
+      {
+        "Date": "5/22/2020",
+        "Production": 3206.026009
+      },
+      {
+        "Date": "5/23/2020",
+        "Production": 3137.986719
+      },
+      {
+        "Date": "5/24/2020",
+        "Production": 3069.947429
+      },
+      {
+        "Date": "5/25/2020",
+        "Production": 3001.908139
+      }
+    ]
+  },
+  {
+    "name": "Zin Technologies",
+    "data": [
+      {
+        "Date": "2/17/2020",
+        "Production": 0
+      },
+      {
+        "Date": "2/18/2020",
+        "Production": 10000
+      },
+      {
+        "Date": "2/19/2020",
+        "Production": 9900
+      },
+      {
+        "Date": "2/20/2020",
+        "Production": 9801
+      },
+      {
+        "Date": "2/21/2020",
+        "Production": 9702.99
+      },
+      {
+        "Date": "2/22/2020",
+        "Production": 9605.9601
+      },
+      {
+        "Date": "2/23/2020",
+        "Production": 9509.900499
+      },
+      {
+        "Date": "2/24/2020",
+        "Production": 9414.801494
+      },
+      {
+        "Date": "2/25/2020",
+        "Production": 9320.653479
+      },
+      {
+        "Date": "2/26/2020",
+        "Production": 9227.446944
+      },
+      {
+        "Date": "2/27/2020",
+        "Production": 9135.172475
+      },
+      {
+        "Date": "2/28/2020",
+        "Production": 9043.82075
+      },
+      {
+        "Date": "2/29/2020",
+        "Production": 8953.382543
+      },
+      {
+        "Date": "3/1/2020",
+        "Production": 8863.848717
+      },
+      {
+        "Date": "3/2/2020",
+        "Production": 8775.21023
+      },
+      {
+        "Date": "3/3/2020",
+        "Production": 8687.458128
+      },
+      {
+        "Date": "3/4/2020",
+        "Production": 8600.583546
+      },
+      {
+        "Date": "3/5/2020",
+        "Production": 8514.577711
+      },
+      {
+        "Date": "3/6/2020",
+        "Production": 8429.431934
+      },
+      {
+        "Date": "3/7/2020",
+        "Production": 8345.137615
+      },
+      {
+        "Date": "3/8/2020",
+        "Production": 8261.686238
+      },
+      {
+        "Date": "3/9/2020",
+        "Production": 8179.069376
+      },
+      {
+        "Date": "3/10/2020",
+        "Production": 8097.278682
+      },
+      {
+        "Date": "3/11/2020",
+        "Production": 8016.305895
+      },
+      {
+        "Date": "3/12/2020",
+        "Production": 7936.142836
+      },
+      {
+        "Date": "3/13/2020",
+        "Production": 7856.781408
+      },
+      {
+        "Date": "3/14/2020",
+        "Production": 7778.213594
+      },
+      {
+        "Date": "3/15/2020",
+        "Production": 7700.431458
+      },
+      {
+        "Date": "3/16/2020",
+        "Production": 7623.427143
+      },
+      {
+        "Date": "3/17/2020",
+        "Production": 7547.192872
+      },
+      {
+        "Date": "3/18/2020",
+        "Production": 7471.720943
+      },
+      {
+        "Date": "3/19/2020",
+        "Production": 7397.003734
+      },
+      {
+        "Date": "3/20/2020",
+        "Production": 7323.033697
+      },
+      {
+        "Date": "3/21/2020",
+        "Production": 7249.80336
+      },
+      {
+        "Date": "3/22/2020",
+        "Production": 7177.305326
+      },
+      {
+        "Date": "3/23/2020",
+        "Production": 7105.532273
+      },
+      {
+        "Date": "3/24/2020",
+        "Production": 7034.47695
+      },
+      {
+        "Date": "3/25/2020",
+        "Production": 6964.13218
+      },
+      {
+        "Date": "3/26/2020",
+        "Production": 6894.490859
+      },
+      {
+        "Date": "3/27/2020",
+        "Production": 6825.54595
+      },
+      {
+        "Date": "3/28/2020",
+        "Production": 6757.290491
+      },
+      {
+        "Date": "3/29/2020",
+        "Production": 6689.717586
+      },
+      {
+        "Date": "3/30/2020",
+        "Production": 6622.82041
+      },
+      {
+        "Date": "3/31/2020",
+        "Production": 6556.592206
+      },
+      {
+        "Date": "4/1/2020",
+        "Production": 6491.026284
+      },
+      {
+        "Date": "4/2/2020",
+        "Production": 6426.116021
+      },
+      {
+        "Date": "4/3/2020",
+        "Production": 6361.854861
+      },
+      {
+        "Date": "4/4/2020",
+        "Production": 6298.236312
+      },
+      {
+        "Date": "4/5/2020",
+        "Production": 6235.253949
+      },
+      {
+        "Date": "4/6/2020",
+        "Production": 6172.901409
+      },
+      {
+        "Date": "4/7/2020",
+        "Production": 6111.172395
+      },
+      {
+        "Date": "4/8/2020",
+        "Production": 6050.060671
+      },
+      {
+        "Date": "4/9/2020",
+        "Production": 5989.560065
+      },
+      {
+        "Date": "4/10/2020",
+        "Production": 5929.664464
+      },
+      {
+        "Date": "4/11/2020",
+        "Production": 5870.367819
+      },
+      {
+        "Date": "4/12/2020",
+        "Production": 5811.664141
+      },
+      {
+        "Date": "4/13/2020",
+        "Production": 5753.5475
+      },
+      {
+        "Date": "4/14/2020",
+        "Production": 5696.012025
+      },
+      {
+        "Date": "4/15/2020",
+        "Production": 5639.051905
+      },
+      {
+        "Date": "4/16/2020",
+        "Production": 5582.661385
+      },
+      {
+        "Date": "4/17/2020",
+        "Production": 5526.834772
+      },
+      {
+        "Date": "4/18/2020",
+        "Production": 5471.566424
+      },
+      {
+        "Date": "4/19/2020",
+        "Production": 5416.85076
+      },
+      {
+        "Date": "4/20/2020",
+        "Production": 5362.682252
+      },
+      {
+        "Date": "4/21/2020",
+        "Production": 5309.05543
+      },
+      {
+        "Date": "4/22/2020",
+        "Production": 5255.964875
+      },
+      {
+        "Date": "4/23/2020",
+        "Production": 5203.405227
+      },
+      {
+        "Date": "4/24/2020",
+        "Production": 5151.371174
+      },
+      {
+        "Date": "4/25/2020",
+        "Production": 5099.857462
+      },
+      {
+        "Date": "4/26/2020",
+        "Production": 5048.858888
+      },
+      {
+        "Date": "4/27/2020",
+        "Production": 4998.370299
+      },
+      {
+        "Date": "4/28/2020",
+        "Production": 4948.386596
+      },
+      {
+        "Date": "4/29/2020",
+        "Production": 4898.90273
+      },
+      {
+        "Date": "4/30/2020",
+        "Production": 4849.913703
+      },
+      {
+        "Date": "5/1/2020",
+        "Production": 4801.414566
+      },
+      {
+        "Date": "5/2/2020",
+        "Production": 4753.40042
+      },
+      {
+        "Date": "5/3/2020",
+        "Production": 4705.866416
+      },
+      {
+        "Date": "5/4/2020",
+        "Production": 4658.807752
+      },
+      {
+        "Date": "5/5/2020",
+        "Production": 4612.219674
+      },
+      {
+        "Date": "5/6/2020",
+        "Production": 4566.097477
+      },
+      {
+        "Date": "5/7/2020",
+        "Production": 4520.436503
+      },
+      {
+        "Date": "5/8/2020",
+        "Production": 4475.232138
+      },
+      {
+        "Date": "5/9/2020",
+        "Production": 4430.479816
+      },
+      {
+        "Date": "5/10/2020",
+        "Production": 4022.49749
+      },
+      {
+        "Date": "5/11/2020",
+        "Production": 3954.4582
+      },
+      {
+        "Date": "5/12/2020",
+        "Production": 3886.41891
+      },
+      {
+        "Date": "5/13/2020",
+        "Production": 3818.37962
+      },
+      {
+        "Date": "5/14/2020",
+        "Production": 3750.34033
+      },
+      {
+        "Date": "5/15/2020",
+        "Production": 3682.30104
+      },
+      {
+        "Date": "5/16/2020",
+        "Production": 3614.26175
+      },
+      {
+        "Date": "5/17/2020",
+        "Production": 3546.22246
+      },
+      {
+        "Date": "5/18/2020",
+        "Production": 3478.18317
+      },
+      {
+        "Date": "5/19/2020",
+        "Production": 3410.143879
+      },
+      {
+        "Date": "5/20/2020",
+        "Production": 3342.104589
+      },
+      {
+        "Date": "5/21/2020",
+        "Production": 3274.065299
+      },
+      {
+        "Date": "5/22/2020",
+        "Production": 3206.026009
+      },
+      {
+        "Date": "5/23/2020",
+        "Production": 3137.986719
+      },
+      {
+        "Date": "5/24/2020",
+        "Production": 3069.947429
+      },
+      {
+        "Date": "5/25/2020",
+        "Production": 3001.908139
+      }
+    ]
+  },
+  {
+    "name": "Wabtec",
+    "data": [
+      {
+        "Date": "2/17/2020",
+        "Production": 0
+      },
+      {
+        "Date": "2/18/2020",
+        "Production": 700
+      },
+      {
+        "Date": "2/19/2020",
+        "Production": 701.004
+      },
+      {
+        "Date": "2/20/2020",
+        "Production": 702.008
+      },
+      {
+        "Date": "2/21/2020",
+        "Production": 703.012
+      },
+      {
+        "Date": "2/22/2020",
+        "Production": 704.016
+      },
+      {
+        "Date": "2/23/2020",
+        "Production": 705.02
+      },
+      {
+        "Date": "2/24/2020",
+        "Production": 706.024
+      },
+      {
+        "Date": "2/25/2020",
+        "Production": 707.028
+      },
+      {
+        "Date": "2/26/2020",
+        "Production": 708.032
+      },
+      {
+        "Date": "2/27/2020",
+        "Production": 709.036
+      },
+      {
+        "Date": "2/28/2020",
+        "Production": 710.04
+      },
+      {
+        "Date": "2/29/2020",
+        "Production": 711.044
+      },
+      {
+        "Date": "3/1/2020",
+        "Production": 712.048
+      },
+      {
+        "Date": "3/2/2020",
+        "Production": 713.052
+      },
+      {
+        "Date": "3/3/2020",
+        "Production": 714.056
+      },
+      {
+        "Date": "3/4/2020",
+        "Production": 715.06
+      },
+      {
+        "Date": "3/5/2020",
+        "Production": 716.064
+      },
+      {
+        "Date": "3/6/2020",
+        "Production": 717.068
+      },
+      {
+        "Date": "3/7/2020",
+        "Production": 718.072
+      },
+      {
+        "Date": "3/8/2020",
+        "Production": 719.076
+      },
+      {
+        "Date": "3/9/2020",
+        "Production": 720.08
+      },
+      {
+        "Date": "3/10/2020",
+        "Production": 721.084
+      },
+      {
+        "Date": "3/11/2020",
+        "Production": 722.088
+      },
+      {
+        "Date": "3/12/2020",
+        "Production": 723.092
+      },
+      {
+        "Date": "3/13/2020",
+        "Production": 724.096
+      },
+      {
+        "Date": "3/14/2020",
+        "Production": 725.1
+      },
+      {
+        "Date": "3/15/2020",
+        "Production": 726.104
+      },
+      {
+        "Date": "3/16/2020",
+        "Production": 727.108
+      },
+      {
+        "Date": "3/17/2020",
+        "Production": 728.112
+      },
+      {
+        "Date": "3/18/2020",
+        "Production": 729.116
+      },
+      {
+        "Date": "3/19/2020",
+        "Production": 730.12
+      },
+      {
+        "Date": "3/20/2020",
+        "Production": 731.124
+      },
+      {
+        "Date": "3/21/2020",
+        "Production": 732.128
+      },
+      {
+        "Date": "3/22/2020",
+        "Production": 733.132
+      },
+      {
+        "Date": "3/23/2020",
+        "Production": 734.136
+      },
+      {
+        "Date": "3/24/2020",
+        "Production": 735.14
+      },
+      {
+        "Date": "3/25/2020",
+        "Production": 736.144
+      },
+      {
+        "Date": "3/26/2020",
+        "Production": 737.148
+      },
+      {
+        "Date": "3/27/2020",
+        "Production": 738.152
+      },
+      {
+        "Date": "3/28/2020",
+        "Production": 739.156
+      },
+      {
+        "Date": "3/29/2020",
+        "Production": 740.16
+      },
+      {
+        "Date": "3/30/2020",
+        "Production": 741.164
+      },
+      {
+        "Date": "3/31/2020",
+        "Production": 742.168
+      },
+      {
+        "Date": "4/1/2020",
+        "Production": 743.172
+      },
+      {
+        "Date": "4/2/2020",
+        "Production": 744.176
+      },
+      {
+        "Date": "4/3/2020",
+        "Production": 745.18
+      },
+      {
+        "Date": "4/4/2020",
+        "Production": 746.184
+      },
+      {
+        "Date": "4/5/2020",
+        "Production": 747.188
+      },
+      {
+        "Date": "4/6/2020",
+        "Production": 748.192
+      },
+      {
+        "Date": "4/7/2020",
+        "Production": 749.196
+      },
+      {
+        "Date": "4/8/2020",
+        "Production": 750.2
+      },
+      {
+        "Date": "4/9/2020",
+        "Production": 751.204
+      },
+      {
+        "Date": "4/10/2020",
+        "Production": 752.208
+      },
+      {
+        "Date": "4/11/2020",
+        "Production": 753.212
+      },
+      {
+        "Date": "4/12/2020",
+        "Production": 754.216
+      },
+      {
+        "Date": "4/13/2020",
+        "Production": 755.22
+      },
+      {
+        "Date": "4/14/2020",
+        "Production": 756.224
+      },
+      {
+        "Date": "4/15/2020",
+        "Production": 757.228
+      },
+      {
+        "Date": "4/16/2020",
+        "Production": 758.232
+      },
+      {
+        "Date": "4/17/2020",
+        "Production": 759.236
+      },
+      {
+        "Date": "4/18/2020",
+        "Production": 760.24
+      },
+      {
+        "Date": "4/19/2020",
+        "Production": 761.244
+      },
+      {
+        "Date": "4/20/2020",
+        "Production": 762.248
+      },
+      {
+        "Date": "4/21/2020",
+        "Production": 763.252
+      },
+      {
+        "Date": "4/22/2020",
+        "Production": 764.256
+      },
+      {
+        "Date": "4/23/2020",
+        "Production": 765.26
+      },
+      {
+        "Date": "4/24/2020",
+        "Production": 766.264
+      },
+      {
+        "Date": "4/25/2020",
+        "Production": 767.268
+      },
+      {
+        "Date": "4/26/2020",
+        "Production": 768.272
+      },
+      {
+        "Date": "4/27/2020",
+        "Production": 769.276
+      },
+      {
+        "Date": "4/28/2020",
+        "Production": 770.28
+      },
+      {
+        "Date": "4/29/2020",
+        "Production": 771.284
+      },
+      {
+        "Date": "4/30/2020",
+        "Production": 772.288
+      },
+      {
+        "Date": "5/1/2020",
+        "Production": 773.292
+      },
+      {
+        "Date": "5/2/2020",
+        "Production": 774.296
+      },
+      {
+        "Date": "5/3/2020",
+        "Production": 775.3
+      },
+      {
+        "Date": "5/4/2020",
+        "Production": 776.304
+      },
+      {
+        "Date": "5/5/2020",
+        "Production": 777.308
+      },
+      {
+        "Date": "5/6/2020",
+        "Production": 778.312
+      },
+      {
+        "Date": "5/7/2020",
+        "Production": 779.316
+      },
+      {
+        "Date": "5/8/2020",
+        "Production": 780.32
+      },
+      {
+        "Date": "5/9/2020",
+        "Production": 781.324
+      },
+      {
+        "Date": "5/10/2020",
+        "Production": 782.328
+      },
+      {
+        "Date": "5/11/2020",
+        "Production": 783.332
+      },
+      {
+        "Date": "5/12/2020",
+        "Production": 784.336
+      },
+      {
+        "Date": "5/13/2020",
+        "Production": 785.34
+      },
+      {
+        "Date": "5/14/2020",
+        "Production": 786.344
+      },
+      {
+        "Date": "5/15/2020",
+        "Production": 787.348
+      },
+      {
+        "Date": "5/16/2020",
+        "Production": 788.352
+      },
+      {
+        "Date": "5/17/2020",
+        "Production": 789.356
+      },
+      {
+        "Date": "5/18/2020",
+        "Production": 790.36
+      },
+      {
+        "Date": "5/19/2020",
+        "Production": 791.364
+      },
+      {
+        "Date": "5/20/2020",
+        "Production": 792.368
+      },
+      {
+        "Date": "5/21/2020",
+        "Production": 793.372
+      },
+      {
+        "Date": "5/22/2020",
+        "Production": 794.376
+      },
+      {
+        "Date": "5/23/2020",
+        "Production": 795.38
+      },
+      {
+        "Date": "5/24/2020",
+        "Production": 796.384
+      },
+      {
+        "Date": "5/25/2020",
+        "Production": 797.388
+      }
+    ]
+  },
+  {
+    "name": "Voxel Intl",
+    "data": [
+      {
+        "Date": "2/17/2020",
+        "Production": 0
+      },
+      {
+        "Date": "2/18/2020",
+        "Production": 75
+      },
+      {
+        "Date": "2/19/2020",
+        "Production": 190
+      },
+      {
+        "Date": "2/20/2020",
+        "Production": 305
+      },
+      {
+        "Date": "2/21/2020",
+        "Production": 420
+      },
+      {
+        "Date": "2/22/2020",
+        "Production": 535
+      },
+      {
+        "Date": "2/23/2020",
+        "Production": 650
+      },
+      {
+        "Date": "2/24/2020",
+        "Production": 765
+      },
+      {
+        "Date": "2/25/2020",
+        "Production": 880
+      },
+      {
+        "Date": "2/26/2020",
+        "Production": 995
+      },
+      {
+        "Date": "2/27/2020",
+        "Production": 1110
+      },
+      {
+        "Date": "2/28/2020",
+        "Production": 1225
+      },
+      {
+        "Date": "2/29/2020",
+        "Production": 1340
+      },
+      {
+        "Date": "3/1/2020",
+        "Production": 1455
+      },
+      {
+        "Date": "3/2/2020",
+        "Production": 1570
+      },
+      {
+        "Date": "3/3/2020",
+        "Production": 1685
+      },
+      {
+        "Date": "3/4/2020",
+        "Production": 1800
+      },
+      {
+        "Date": "3/5/2020",
+        "Production": 1915
+      },
+      {
+        "Date": "3/6/2020",
+        "Production": 2030
+      },
+      {
+        "Date": "3/7/2020",
+        "Production": 2145
+      },
+      {
+        "Date": "3/8/2020",
+        "Production": 2260
+      },
+      {
+        "Date": "3/9/2020",
+        "Production": 2375
+      },
+      {
+        "Date": "3/10/2020",
+        "Production": 2490
+      },
+      {
+        "Date": "3/11/2020",
+        "Production": 2605
+      },
+      {
+        "Date": "3/12/2020",
+        "Production": 2720
+      },
+      {
+        "Date": "3/13/2020",
+        "Production": 2835
+      },
+      {
+        "Date": "3/14/2020",
+        "Production": 2950
+      },
+      {
+        "Date": "3/15/2020",
+        "Production": 3065
+      },
+      {
+        "Date": "3/16/2020",
+        "Production": 3180
+      },
+      {
+        "Date": "3/17/2020",
+        "Production": 3295
+      },
+      {
+        "Date": "3/18/2020",
+        "Production": 3410
+      },
+      {
+        "Date": "3/19/2020",
+        "Production": 3525
+      },
+      {
+        "Date": "3/20/2020",
+        "Production": 3640
+      },
+      {
+        "Date": "3/21/2020",
+        "Production": 3755
+      },
+      {
+        "Date": "3/22/2020",
+        "Production": 3870
+      },
+      {
+        "Date": "3/23/2020",
+        "Production": 3985
+      },
+      {
+        "Date": "3/24/2020",
+        "Production": 4100
+      },
+      {
+        "Date": "3/25/2020",
+        "Production": 4215
+      },
+      {
+        "Date": "3/26/2020",
+        "Production": 4330
+      },
+      {
+        "Date": "3/27/2020",
+        "Production": 4445
+      },
+      {
+        "Date": "3/28/2020",
+        "Production": 4560
+      },
+      {
+        "Date": "3/29/2020",
+        "Production": 4675
+      },
+      {
+        "Date": "3/30/2020",
+        "Production": 4790
+      },
+      {
+        "Date": "3/31/2020",
+        "Production": 4905
+      },
+      {
+        "Date": "4/1/2020",
+        "Production": 5020
+      },
+      {
+        "Date": "4/2/2020",
+        "Production": 5135
+      },
+      {
+        "Date": "4/3/2020",
+        "Production": 5250
+      },
+      {
+        "Date": "4/4/2020",
+        "Production": 5365
+      },
+      {
+        "Date": "4/5/2020",
+        "Production": 5480
+      },
+      {
+        "Date": "4/6/2020",
+        "Production": 5595
+      },
+      {
+        "Date": "4/7/2020",
+        "Production": 5710
+      },
+      {
+        "Date": "4/8/2020",
+        "Production": 5825
+      },
+      {
+        "Date": "4/9/2020",
+        "Production": 5940
+      },
+      {
+        "Date": "4/10/2020",
+        "Production": 6055
+      },
+      {
+        "Date": "4/11/2020",
+        "Production": 6170
+      },
+      {
+        "Date": "4/12/2020",
+        "Production": 6285
+      },
+      {
+        "Date": "4/13/2020",
+        "Production": 6400
+      },
+      {
+        "Date": "4/14/2020",
+        "Production": 6515
+      },
+      {
+        "Date": "4/15/2020",
+        "Production": 6630
+      },
+      {
+        "Date": "4/16/2020",
+        "Production": 6745
+      },
+      {
+        "Date": "4/17/2020",
+        "Production": 6860
+      },
+      {
+        "Date": "4/18/2020",
+        "Production": 6975
+      },
+      {
+        "Date": "4/19/2020",
+        "Production": 7090
+      },
+      {
+        "Date": "4/20/2020",
+        "Production": 7205
+      },
+      {
+        "Date": "4/21/2020",
+        "Production": 7320
+      },
+      {
+        "Date": "4/22/2020",
+        "Production": 7435
+      },
+      {
+        "Date": "4/23/2020",
+        "Production": 7550
+      },
+      {
+        "Date": "4/24/2020",
+        "Production": 7665
+      },
+      {
+        "Date": "4/25/2020",
+        "Production": 7780
+      },
+      {
+        "Date": "4/26/2020",
+        "Production": 7895
+      },
+      {
+        "Date": "4/27/2020",
+        "Production": 8010
+      },
+      {
+        "Date": "4/28/2020",
+        "Production": 8125
+      },
+      {
+        "Date": "4/29/2020",
+        "Production": 8240
+      },
+      {
+        "Date": "4/30/2020",
+        "Production": 8355
+      },
+      {
+        "Date": "5/1/2020",
+        "Production": 8470
+      },
+      {
+        "Date": "5/2/2020",
+        "Production": 8585
+      },
+      {
+        "Date": "5/3/2020",
+        "Production": 8700
+      },
+      {
+        "Date": "5/4/2020",
+        "Production": 8815
+      },
+      {
+        "Date": "5/5/2020",
+        "Production": 8930
+      },
+      {
+        "Date": "5/6/2020",
+        "Production": 9045
+      },
+      {
+        "Date": "5/7/2020",
+        "Production": 9160
+      },
+      {
+        "Date": "5/8/2020",
+        "Production": 9275
+      },
+      {
+        "Date": "5/9/2020",
+        "Production": 9390
+      },
+      {
+        "Date": "5/10/2020",
+        "Production": 9505
+      },
+      {
+        "Date": "5/11/2020",
+        "Production": 9620
+      },
+      {
+        "Date": "5/12/2020",
+        "Production": 9735
+      },
+      {
+        "Date": "5/13/2020",
+        "Production": 9850
+      },
+      {
+        "Date": "5/14/2020",
+        "Production": 9965
+      },
+      {
+        "Date": "5/15/2020",
+        "Production": 10080
+      },
+      {
+        "Date": "5/16/2020",
+        "Production": 10195
+      },
+      {
+        "Date": "5/17/2020",
+        "Production": 10310
+      },
+      {
+        "Date": "5/18/2020",
+        "Production": 10425
+      },
+      {
+        "Date": "5/19/2020",
+        "Production": 10540
+      },
+      {
+        "Date": "5/20/2020",
+        "Production": 10655
+      },
+      {
+        "Date": "5/21/2020",
+        "Production": 10770
+      },
+      {
+        "Date": "5/22/2020",
+        "Production": 10885
+      },
+      {
+        "Date": "5/23/2020",
+        "Production": 11000
+      },
+      {
+        "Date": "5/24/2020",
+        "Production": 11115
+      },
+      {
+        "Date": "5/25/2020",
+        "Production": 11230
+      }
+    ]
+  }
+]

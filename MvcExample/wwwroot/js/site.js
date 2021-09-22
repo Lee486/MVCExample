@@ -3,7 +3,6 @@
 
 jQuery(document).ready(function ($) {
     if (undefined != typeof($('#barchart')) && $('#barchart').length) {
-        console.log($('#barchart'));
         loadSupplierJson();
         $('.tablinks').on('click', function (evt) {
             showChart($(this).attr('data-content'));
@@ -11,13 +10,7 @@ jQuery(document).ready(function ($) {
         });
     }
 });
-
-function loadBuildOutput() {
-
-}
-
 function loadSupplierJson() {
-    // you could also pass parameters to the ajax function, for start and rows
     $.ajax({
         url: "/Ajax/SupplierData",
         type: 'GET',

@@ -22,22 +22,33 @@ namespace MvcExample.Services
         public async Task<List<TimeSeriesData>> GetFooData()
         {
             List<TimeSeriesData> fooData = new List<TimeSeriesData>();
-
-            // for now, just read the static data from the file
             string prodSampleFilePath = System.IO.Path.GetFullPath("wwwroot" + System.IO.Path.DirectorySeparatorChar + "fooData.json");
             string prodDataRawJson = System.IO.File.ReadAllText(prodSampleFilePath);
-
             try
             {
                 fooData = JsonConvert.DeserializeObject<List<TimeSeriesData>>(prodDataRawJson);
-
             }
             catch (Exception ex)
             {
                 //@todo return an error to the front end
             }
-
             return fooData;
+        }
+
+        public async Task<List<TimeSeriesData>> GetCompanySupplierData()
+        {
+            List<TimeSeriesData> CPData = new List<TimeSeriesData>();
+            string prodSampleFilePath = System.IO.Path.GetFullPath("wwwroot" + System.IO.Path.DirectorySeparatorChar + "companyProductionData.json");
+            string prodDataRawJson = System.IO.File.ReadAllText(prodSampleFilePath);
+            try
+            {
+                CPData = JsonConvert.DeserializeObject<List<TimeSeriesData>>(prodDataRawJson);
+            }
+            catch (Exception ex)
+            {
+                //@todo return an error to the front end
+            }
+            return CPData;
 
         }
     }

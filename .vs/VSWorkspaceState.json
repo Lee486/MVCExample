@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\MvcExample"
+    "\\MvcExample",
+    "\\MvcExample\\wwwroot",
+    "\\MvcExample\\wwwroot\\js"
   ],
   "SelectedNode": "\\MvcExample.sln",
   "PreviewInSolutionExplorer": false

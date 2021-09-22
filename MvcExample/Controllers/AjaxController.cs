@@ -35,7 +35,6 @@ namespace AMIPWeb.Controllers
         {
             int start = 0;
             int rows = 10;
-
             if (Start != null)
             {
                 start = (int)Start;
@@ -62,6 +61,13 @@ namespace AMIPWeb.Controllers
         public async Task<IActionResult> GetFooData()
         {
             List<TimeSeriesData> food = await forecastService.GetFooData();
+            return Json(food);
+        }
+
+        // GET: /Ajax/GetCompanyProductionData
+        public async Task<IActionResult> GetCompanyProductionData()
+        {
+            List<TimeSeriesData> food = await forecastService.GetCompanySupplierData();
             return Json(food);
         }
     } // controller
