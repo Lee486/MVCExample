@@ -2,6 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\MvcExample",
+    "\\MvcExample\\Controllers",
+    "\\MvcExample\\Models",
+    "\\MvcExample\\Services",
+    "\\MvcExample\\Views",
     "\\MvcExample\\wwwroot",
     "\\MvcExample\\wwwroot\\js"
   ],

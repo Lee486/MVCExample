@@ -7,12 +7,13 @@ using System.Linq;
 using Microsoft.ML;
 using Microsoft.ML.Data;
 using MvcExampleML.Model;
+using Microsoft.ML.Trainers.FastTree;
 
 namespace MvcExampleML.ConsoleApp
 {
     public static class ModelBuilder
     {
-        private static string TRAIN_DATA_FILEPATH = @"C:\Users\salee\source\repos\MVCExample\MvcExample\wwwroot\yelp_labelled.txt";
+        private static string TRAIN_DATA_FILEPATH = @"C:\Users\salee\source\repos\MVCExample\MvcExample\wwwroot\company.csv";
         private static string MODEL_FILEPATH = @"C:\Users\salee\AppData\Local\Temp\MLVSTools\MvcExampleML\MvcExampleML.Model\MLModel.zip";
         // Create MLContext to be shared across the model creation workflow objects 
         // Set a random seed for repeatable/deterministic results across multiple trainings.
@@ -23,8 +24,8 @@ namespace MvcExampleML.ConsoleApp
             // Load Data
             IDataView trainingDataView = mlContext.Data.LoadFromTextFile<ModelInput>(
                                             path: TRAIN_DATA_FILEPATH,
-                                            hasHeader: false,
-                                            separatorChar: '\t',
+                                            hasHeader: true,
+                                            separatorChar: ',',
                                             allowQuoting: true,
                                             allowSparse: false);
 
@@ -44,14 +45,9 @@ namespace MvcExampleML.ConsoleApp
         public static IEstimator<ITransformer> BuildTrainingPipeline(MLContext mlContext)
         {
             // Data process configuration with pipeline data transformations 
-            var dataProcessPipeline = mlContext.Transforms.Conversion.MapValueToKey("col1", "col1")
-                                      .Append(mlContext.Transforms.Text.FeaturizeText("col0_tf", "col0"))
-                                      .Append(mlContext.Transforms.CopyColumns("Features", "col0_tf"))
-                                      .Append(mlContext.Transforms.NormalizeMinMax("Features", "Features"))
-                                      .AppendCacheCheckpoint(mlContext);
+            var dataProcessPipeline = mlContext.Transforms.Concatenate("Features", new[] { "number", "Date" });
             // Set the training algorithm 
-            var trainer = mlContext.MulticlassClassification.Trainers.OneVersusAll(mlContext.BinaryClassification.Trainers.AveragedPerceptron(labelColumnName: "col1", numberOfIterations: 10, featureColumnName: "Features"), labelColumnName: "col1")
-                                      .Append(mlContext.Transforms.Conversion.MapKeyToValue("PredictedLabel", "PredictedLabel"));
+            var trainer = mlContext.Regression.Trainers.FastTreeTweedie(new FastTreeTweedieTrainer.Options() { NumberOfLeaves = 10, MinimumExampleCountPerLeaf = 1, NumberOfTrees = 500, LearningRate = 0.2688848f, Shrinkage = 1.146975f, LabelColumnName = "Production", FeatureColumnName = "Features" });
 
             var trainingPipeline = dataProcessPipeline.Append(trainer);
 
@@ -73,8 +69,8 @@ namespace MvcExampleML.ConsoleApp
             // Cross-Validate with single dataset (since we don't have two datasets, one for training and for evaluate)
             // in order to evaluate and get the model's accuracy metrics
             Console.WriteLine("=============== Cross-validating to get model's accuracy metrics ===============");
-            var crossValidationResults = mlContext.MulticlassClassification.CrossValidate(trainingDataView, trainingPipeline, numberOfFolds: 5, labelColumnName: "col1");
-            PrintMulticlassClassificationFoldsAverageMetrics(crossValidationResults);
+            var crossValidationResults = mlContext.Regression.CrossValidate(trainingDataView, trainingPipeline, numberOfFolds: 5, labelColumnName: "Production");
+            PrintRegressionFoldsAverageMetrics(crossValidationResults);
         }
 
         private static void SaveModel(MLContext mlContext, ITransformer mlModel, string modelRelativePath, DataViewSchema modelInputSchema)
@@ -95,68 +91,36 @@ namespace MvcExampleML.ConsoleApp
             return fullPath;
         }
 
-        public static void PrintMulticlassClassificationMetrics(MulticlassClassificationMetrics metrics)
+        public static void PrintRegressionMetrics(RegressionMetrics metrics)
         {
-            Console.WriteLine($"************************************************************");
-            Console.WriteLine($"*    Metrics for multi-class classification model   ");
-            Console.WriteLine($"*-----------------------------------------------------------");
-            Console.WriteLine($"    MacroAccuracy = {metrics.MacroAccuracy:0.####}, a value between 0 and 1, the closer to 1, the better");
-            Console.WriteLine($"    MicroAccuracy = {metrics.MicroAccuracy:0.####}, a value between 0 and 1, the closer to 1, the better");
-            Console.WriteLine($"    LogLoss = {metrics.LogLoss:0.####}, the closer to 0, the better");
-            for (int i = 0; i < metrics.PerClassLogLoss.Count; i++)
-            {
-                Console.WriteLine($"    LogLoss for class {i + 1} = {metrics.PerClassLogLoss[i]:0.####}, the closer to 0, the better");
-            }
-            Console.WriteLine($"************************************************************");
+            Console.WriteLine($"*************************************************");
+            Console.WriteLine($"*       Metrics for Regression model      ");
+            Console.WriteLine($"*------------------------------------------------");
+            Console.WriteLine($"*       LossFn:        {metrics.LossFunction:0.##}");
+            Console.WriteLine($"*       R2 Score:      {metrics.RSquared:0.##}");
+            Console.WriteLine($"*       Absolute loss: {metrics.MeanAbsoluteError:#.##}");
+            Console.WriteLine($"*       Squared loss:  {metrics.MeanSquaredError:#.##}");
+            Console.WriteLine($"*       RMS loss:      {metrics.RootMeanSquaredError:#.##}");
+            Console.WriteLine($"*************************************************");
         }
 
-        public static void PrintMulticlassClassificationFoldsAverageMetrics(IEnumerable<TrainCatalogBase.CrossValidationResult<MulticlassClassificationMetrics>> crossValResults)
+        public static void PrintRegressionFoldsAverageMetrics(IEnumerable<TrainCatalogBase.CrossValidationResult<RegressionMetrics>> crossValidationResults)
         {
-            var metricsInMultipleFolds = crossValResults.Select(r => r.Metrics);
-
-            var microAccuracyValues = metricsInMultipleFolds.Select(m => m.MicroAccuracy);
-            var microAccuracyAverage = microAccuracyValues.Average();
-            var microAccuraciesStdDeviation = CalculateStandardDeviation(microAccuracyValues);
-            var microAccuraciesConfidenceInterval95 = CalculateConfidenceInterval95(microAccuracyValues);
-
-            var macroAccuracyValues = metricsInMultipleFolds.Select(m => m.MacroAccuracy);
-            var macroAccuracyAverage = macroAccuracyValues.Average();
-            var macroAccuraciesStdDeviation = CalculateStandardDeviation(macroAccuracyValues);
-            var macroAccuraciesConfidenceInterval95 = CalculateConfidenceInterval95(macroAccuracyValues);
-
-            var logLossValues = metricsInMultipleFolds.Select(m => m.LogLoss);
-            var logLossAverage = logLossValues.Average();
-            var logLossStdDeviation = CalculateStandardDeviation(logLossValues);
-            var logLossConfidenceInterval95 = CalculateConfidenceInterval95(logLossValues);
-
-            var logLossReductionValues = metricsInMultipleFolds.Select(m => m.LogLossReduction);
-            var logLossReductionAverage = logLossReductionValues.Average();
-            var logLossReductionStdDeviation = CalculateStandardDeviation(logLossReductionValues);
-            var logLossReductionConfidenceInterval95 = CalculateConfidenceInterval95(logLossReductionValues);
+            var L1 = crossValidationResults.Select(r => r.Metrics.MeanAbsoluteError);
+            var L2 = crossValidationResults.Select(r => r.Metrics.MeanSquaredError);
+            var RMS = crossValidationResults.Select(r => r.Metrics.RootMeanSquaredError);
+            var lossFunction = crossValidationResults.Select(r => r.Metrics.LossFunction);
+            var R2 = crossValidationResults.Select(r => r.Metrics.RSquared);
 
             Console.WriteLine($"*************************************************************************************************************");
-            Console.WriteLine($"*       Metrics for Multi-class Classification model      ");
+            Console.WriteLine($"*       Metrics for Regression model      ");
             Console.WriteLine($"*------------------------------------------------------------------------------------------------------------");
-            Console.WriteLine($"*       Average MicroAccuracy:    {microAccuracyAverage:0.###}  - Standard deviation: ({microAccuraciesStdDeviation:#.###})  - Confidence Interval 95%: ({microAccuraciesConfidenceInterval95:#.###})");
-            Console.WriteLine($"*       Average MacroAccuracy:    {macroAccuracyAverage:0.###}  - Standard deviation: ({macroAccuraciesStdDeviation:#.###})  - Confidence Interval 95%: ({macroAccuraciesConfidenceInterval95:#.###})");
-            Console.WriteLine($"*       Average LogLoss:          {logLossAverage:#.###}  - Standard deviation: ({logLossStdDeviation:#.###})  - Confidence Interval 95%: ({logLossConfidenceInterval95:#.###})");
-            Console.WriteLine($"*       Average LogLossReduction: {logLossReductionAverage:#.###}  - Standard deviation: ({logLossReductionStdDeviation:#.###})  - Confidence Interval 95%: ({logLossReductionConfidenceInterval95:#.###})");
+            Console.WriteLine($"*       Average L1 Loss:       {L1.Average():0.###} ");
+            Console.WriteLine($"*       Average L2 Loss:       {L2.Average():0.###}  ");
+            Console.WriteLine($"*       Average RMS:           {RMS.Average():0.###}  ");
+            Console.WriteLine($"*       Average Loss Function: {lossFunction.Average():0.###}  ");
+            Console.WriteLine($"*       Average R-squared:     {R2.Average():0.###}  ");
             Console.WriteLine($"*************************************************************************************************************");
-
-        }
-
-        public static double CalculateStandardDeviation(IEnumerable<double> values)
-        {
-            double average = values.Average();
-            double sumOfSquaresOfDifferences = values.Select(val => (val - average) * (val - average)).Sum();
-            double standardDeviation = Math.Sqrt(sumOfSquaresOfDifferences / (values.Count() - 1));
-            return standardDeviation;
-        }
-
-        public static double CalculateConfidenceInterval95(IEnumerable<double> values)
-        {
-            double confidenceInterval95 = 1.96 * CalculateStandardDeviation(values) / Math.Sqrt((values.Count() - 1));
-            return confidenceInterval95;
         }
     }
 }

@@ -10,6 +10,7 @@
       "MvcExampleML.Model/1.0.0": {
         "dependencies": {
           "Microsoft.ML": "1.5.0-preview2",
+          "Microsoft.ML.FastTree": "1.5.0-preview2",
           "NETStandard.Library": "2.0.3"
         },
         "runtime": {
@@ -97,6 +98,17 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.ML.DataView.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.5.28711.2"
+          }
+        }
+      },
+      "Microsoft.ML.FastTree/1.5.0-preview2": {
+        "dependencies": {
+          "Microsoft.ML": "1.5.0-preview2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.FastTree.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.5.28711.2"
           }
@@ -699,6 +711,13 @@
       "sha512": "sha512-y++lpxZaoM3IPhgxz6OKrcIS8eXYNk7dtyevKxxVbML9O27YPkuhJqLM/p/NSw9DU44+beFaz38WpdGyEVK8Bg==",
       "path": "microsoft.ml.dataview/1.5.0-preview2",
       "hashPath": "microsoft.ml.dataview.1.5.0-preview2.nupkg.sha512"
+    },
+    "Microsoft.ML.FastTree/1.5.0-preview2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YORU9USci36Vcy0UhbaQiSZi7qldWgYq90QoYg35wPdzt4iPxLEhXtWubeJD8EA5L47AfxvULu82MBtB+N9cVA==",
+      "path": "microsoft.ml.fasttree/1.5.0-preview2",
+      "hashPath": "microsoft.ml.fasttree.1.5.0-preview2.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",

@@ -13,6 +13,9 @@
         "packagesPath": "C:\\Users\\salee\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\salee\\Source\\Repos\\MVCExample\\MvcExampleML.Model\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\salee\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -41,6 +44,10 @@
           "targetAlias": "netstandard2.0",
           "dependencies": {
             "Microsoft.ML": {
+              "target": "Package",
+              "version": "[1.5.0-preview2, )"
+            },
+            "Microsoft.ML.FastTree": {
               "target": "Package",
               "version": "[1.5.0-preview2, )"
             },
@@ -74,6 +81,9 @@
         "packagesPath": "C:\\Users\\salee\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\salee\\Source\\Repos\\MVCExample\\MvcExample\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\salee\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"

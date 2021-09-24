@@ -9,6 +9,7 @@ jQuery(document).ready(function ($) {
             $(this).removeClass('active').addClass('active');
         });
     }
+    showRegressionalData();
 });
 function loadSupplierJson() {
     $.ajax({
@@ -52,6 +53,8 @@ function generateChart(chartId, chartType, data) {
     });
 };
 
-function regionalLine(data) {
 
+// print out the regressional stuff
+function showRegressionalData(data) {
+    console.log("Regressional Data: ")
 }
