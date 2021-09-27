@@ -14,5 +14,9 @@ namespace MvcExampleML.Model
         public float Production { get; set; }
 
 
+        [ColumnName("Company"), LoadColumn(2)]
+        public string Company { get; set; }
+
+
     }
 }

@@ -13,6 +13,7 @@ namespace MvcExampleML.ConsoleApp
             ModelInput sampleData = new ModelInput()
             {
                 Date = 43878F,
+                Company = @"Extrude Hone",
             };
 
             // Make a single prediction on the sample data and print results
@@ -20,6 +21,7 @@ namespace MvcExampleML.ConsoleApp
 
             Console.WriteLine("Using model to make single prediction -- Comparing actual Production with predicted Production from sample data...\n\n");
             Console.WriteLine($"Date: {sampleData.Date}");
+            Console.WriteLine($"Company: {sampleData.Company}");
             Console.WriteLine($"\n\nPredicted Production: {predictionResult.Score}\n\n");
             Console.WriteLine("=============== End of process, hit any key to finish ===============");
             Console.ReadKey();

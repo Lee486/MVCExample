@@ -51,7 +51,7 @@
               "target": "Package",
               "version": "[1.5.0-preview2, )"
             },
-            "Microsoft.ML.FastTree": {
+            "Microsoft.ML.LightGBM": {
               "target": "Package",
               "version": "[1.5.0-preview2, )"
             }
@@ -118,7 +118,7 @@
               "target": "Package",
               "version": "[1.5.0-preview2, )"
             },
-            "Microsoft.ML.FastTree": {
+            "Microsoft.ML.LightGBM": {
               "target": "Package",
               "version": "[1.5.0-preview2, )"
             },

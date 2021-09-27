@@ -12,7 +12,7 @@ namespace MvcExampleML.ConsoleApp
 {
     public static class ModelBuilder
     {
-        private static string TRAIN_DATA_FILEPATH = @"C:\Users\salee\source\repos\MVCExample\MvcExample\wwwroot\companyDP.csv";
+        private static string TRAIN_DATA_FILEPATH = @"C:\Users\salee\source\repos\MVCExample\MvcExample\wwwroot\CompProd.csv";
         private static string MODEL_FILEPATH = @"C:\Users\salee\AppData\Local\Temp\MLVSTools\MvcExampleML\MvcExampleML.Model\MLModel.zip";
         // Create MLContext to be shared across the model creation workflow objects 
         // Set a random seed for repeatable/deterministic results across multiple trainings.
@@ -44,9 +44,10 @@ namespace MvcExampleML.ConsoleApp
         public static IEstimator<ITransformer> BuildTrainingPipeline(MLContext mlContext)
         {
             // Data process configuration with pipeline data transformations 
-            var dataProcessPipeline = mlContext.Transforms.Concatenate("Features", new[] { "Date" });
+            var dataProcessPipeline = mlContext.Transforms.Categorical.OneHotEncoding(new[] { new InputOutputColumnPair("Company", "Company") })
+                                      .Append(mlContext.Transforms.Concatenate("Features", new[] { "Company", "Date" }));
             // Set the training algorithm 
-            var trainer = mlContext.Regression.Trainers.FastTree(labelColumnName: "Production", featureColumnName: "Features");
+            var trainer = mlContext.Regression.Trainers.LightGbm(labelColumnName: "Production", featureColumnName: "Features");
 
             var trainingPipeline = dataProcessPipeline.Append(trainer);
 

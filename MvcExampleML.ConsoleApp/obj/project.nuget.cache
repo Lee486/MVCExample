@@ -1,14 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "jDxzKThMf0/4HwwUQ0SKSH0aO1BakNzifW0jkDe3lH5MlG1cIrg6IYnhvOx3oqNE8bLkl9k4BTbw1tfWYsR1yg==",
+  "dgSpecHash": "Eo0zmaBkyxCRsv5ySHGxFs+GwKaVfwWJuS6VFlxLHxvWk4DkDAbCz2k68ybtS+87vaNaV0CZ3utbFwWV1AAf3w==",
   "success": true,
   "projectFilePath": "C:\\Users\\salee\\Source\\Repos\\MVCExample\\MvcExampleML.ConsoleApp\\MvcExampleML.ConsoleApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\salee\\.nuget\\packages\\lightgbm\\2.2.3\\lightgbm.2.2.3.nupkg.sha512",
     "C:\\Users\\salee\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
     "C:\\Users\\salee\\.nuget\\packages\\microsoft.ml\\1.5.0-preview2\\microsoft.ml.1.5.0-preview2.nupkg.sha512",
     "C:\\Users\\salee\\.nuget\\packages\\microsoft.ml.cpumath\\1.5.0-preview2\\microsoft.ml.cpumath.1.5.0-preview2.nupkg.sha512",
     "C:\\Users\\salee\\.nuget\\packages\\microsoft.ml.dataview\\1.5.0-preview2\\microsoft.ml.dataview.1.5.0-preview2.nupkg.sha512",
     "C:\\Users\\salee\\.nuget\\packages\\microsoft.ml.fasttree\\1.5.0-preview2\\microsoft.ml.fasttree.1.5.0-preview2.nupkg.sha512",
+    "C:\\Users\\salee\\.nuget\\packages\\microsoft.ml.lightgbm\\1.5.0-preview2\\microsoft.ml.lightgbm.1.5.0-preview2.nupkg.sha512",
     "C:\\Users\\salee\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\salee\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\salee\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
