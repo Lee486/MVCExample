@@ -6,15 +6,11 @@ namespace MvcExampleML.Model
 {
     public class ModelInput
     {
-        [ColumnName("number"), LoadColumn(0)]
-        public float Number { get; set; }
-
-
-        [ColumnName("Date"), LoadColumn(1)]
+        [ColumnName("Date"), LoadColumn(0)]
         public float Date { get; set; }
 
 
-        [ColumnName("Production"), LoadColumn(2)]
+        [ColumnName("Production"), LoadColumn(1)]
         public float Production { get; set; }
 
 

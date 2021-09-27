@@ -60,3 +60,8 @@ C:\Users\salee\Source\Repos\MVCExample\MvcExample\bin\Debug\net5.0\runtimes\win-
 C:\Users\salee\Source\Repos\MVCExample\MvcExample\bin\Debug\net5.0\MLModel.zip
 C:\Users\salee\Source\Repos\MVCExample\MvcExample\bin\Debug\net5.0\MvcExampleML.Model.dll
 C:\Users\salee\Source\Repos\MVCExample\MvcExample\bin\Debug\net5.0\MvcExampleML.Model.pdb
+C:\Users\salee\Source\Repos\MVCExample\MvcExample\bin\Debug\net5.0\Microsoft.ML.FastTree.dll
+C:\Users\salee\Source\Repos\MVCExample\MvcExample\bin\Debug\net5.0\runtimes\linux-x64\native\libFastTreeNative.so
+C:\Users\salee\Source\Repos\MVCExample\MvcExample\bin\Debug\net5.0\runtimes\osx-x64\native\libFastTreeNative.dylib
+C:\Users\salee\Source\Repos\MVCExample\MvcExample\bin\Debug\net5.0\runtimes\win-x64\native\FastTreeNative.dll
+C:\Users\salee\Source\Repos\MVCExample\MvcExample\bin\Debug\net5.0\runtimes\win-x86\native\FastTreeNative.dll

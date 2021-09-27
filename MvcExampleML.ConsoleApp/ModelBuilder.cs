@@ -7,13 +7,12 @@ using System.Linq;
 using Microsoft.ML;
 using Microsoft.ML.Data;
 using MvcExampleML.Model;
-using Microsoft.ML.Trainers.FastTree;
 
 namespace MvcExampleML.ConsoleApp
 {
     public static class ModelBuilder
     {
-        private static string TRAIN_DATA_FILEPATH = @"C:\Users\salee\source\repos\MVCExample\MvcExample\wwwroot\company.csv";
+        private static string TRAIN_DATA_FILEPATH = @"C:\Users\salee\source\repos\MVCExample\MvcExample\wwwroot\companyDP.csv";
         private static string MODEL_FILEPATH = @"C:\Users\salee\AppData\Local\Temp\MLVSTools\MvcExampleML\MvcExampleML.Model\MLModel.zip";
         // Create MLContext to be shared across the model creation workflow objects 
         // Set a random seed for repeatable/deterministic results across multiple trainings.
@@ -45,9 +44,9 @@ namespace MvcExampleML.ConsoleApp
         public static IEstimator<ITransformer> BuildTrainingPipeline(MLContext mlContext)
         {
             // Data process configuration with pipeline data transformations 
-            var dataProcessPipeline = mlContext.Transforms.Concatenate("Features", new[] { "number", "Date" });
+            var dataProcessPipeline = mlContext.Transforms.Concatenate("Features", new[] { "Date" });
             // Set the training algorithm 
-            var trainer = mlContext.Regression.Trainers.FastTreeTweedie(new FastTreeTweedieTrainer.Options() { NumberOfLeaves = 10, MinimumExampleCountPerLeaf = 1, NumberOfTrees = 500, LearningRate = 0.2688848f, Shrinkage = 1.146975f, LabelColumnName = "Production", FeatureColumnName = "Features" });
+            var trainer = mlContext.Regression.Trainers.FastTree(labelColumnName: "Production", featureColumnName: "Features");
 
             var trainingPipeline = dataProcessPipeline.Append(trainer);
 
