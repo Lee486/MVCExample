@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\salee\\Source\\Repos\\MVCExample\\MvcExampleML.Model\\MvcExampleML.Model.csproj": {}
+    "C:\\Users\\salee\\source\\repos\\MVCExample\\MvcExampleML.Model\\MvcExampleML.Model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\salee\\Source\\Repos\\MVCExample\\MvcExampleML.Model\\MvcExampleML.Model.csproj": {
+    "C:\\Users\\salee\\source\\repos\\MVCExample\\MvcExampleML.Model\\MvcExampleML.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\salee\\Source\\Repos\\MVCExample\\MvcExampleML.Model\\MvcExampleML.Model.csproj",
+        "projectUniqueName": "C:\\Users\\salee\\source\\repos\\MVCExample\\MvcExampleML.Model\\MvcExampleML.Model.csproj",
         "projectName": "MvcExampleML.Model",
-        "projectPath": "C:\\Users\\salee\\Source\\Repos\\MVCExample\\MvcExampleML.Model\\MvcExampleML.Model.csproj",
+        "projectPath": "C:\\Users\\salee\\source\\repos\\MVCExample\\MvcExampleML.Model\\MvcExampleML.Model.csproj",
         "packagesPath": "C:\\Users\\salee\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\salee\\Source\\Repos\\MVCExample\\MvcExampleML.Model\\obj\\",
+        "outputPath": "C:\\Users\\salee\\source\\repos\\MVCExample\\MvcExampleML.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -44,10 +44,6 @@
           "targetAlias": "netstandard2.0",
           "dependencies": {
             "Microsoft.ML": {
-              "target": "Package",
-              "version": "[1.5.0-preview2, )"
-            },
-            "Microsoft.ML.LightGBM": {
               "target": "Package",
               "version": "[1.5.0-preview2, )"
             },

@@ -65,3 +65,8 @@ C:\Users\salee\Source\Repos\MVCExample\MvcExample\bin\Debug\net5.0\runtimes\linu
 C:\Users\salee\Source\Repos\MVCExample\MvcExample\bin\Debug\net5.0\runtimes\osx-x64\native\libFastTreeNative.dylib
 C:\Users\salee\Source\Repos\MVCExample\MvcExample\bin\Debug\net5.0\runtimes\win-x64\native\FastTreeNative.dll
 C:\Users\salee\Source\Repos\MVCExample\MvcExample\bin\Debug\net5.0\runtimes\win-x86\native\FastTreeNative.dll
+C:\Users\salee\Source\Repos\MVCExample\MvcExample\bin\Debug\net5.0\Microsoft.ML.LightGbm.dll
+C:\Users\salee\Source\Repos\MVCExample\MvcExample\bin\Debug\net5.0\runtimes\linux-x64\native\lib_lightgbm.so
+C:\Users\salee\Source\Repos\MVCExample\MvcExample\bin\Debug\net5.0\runtimes\osx-x64\native\lib_lightgbm.dylib
+C:\Users\salee\Source\Repos\MVCExample\MvcExample\bin\Debug\net5.0\runtimes\win-x64\native\lib_lightgbm.dll
+C:\Users\salee\Source\Repos\MVCExample\MvcExample\bin\Debug\net5.0\runtimes\win-x64\native\lightgbm.exe

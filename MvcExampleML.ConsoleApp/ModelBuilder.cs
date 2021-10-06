@@ -44,10 +44,11 @@ namespace MvcExampleML.ConsoleApp
         public static IEstimator<ITransformer> BuildTrainingPipeline(MLContext mlContext)
         {
             // Data process configuration with pipeline data transformations 
-            var dataProcessPipeline = mlContext.Transforms.Categorical.OneHotEncoding(new[] { new InputOutputColumnPair("Company", "Company") })
-                                      .Append(mlContext.Transforms.Concatenate("Features", new[] { "Company", "Date" }));
+            var dataProcessPipeline = mlContext.Transforms.Concatenate("Features", new[] { "Date" })
+                                      .Append(mlContext.Transforms.NormalizeMinMax("Features", "Features"))
+                                      .AppendCacheCheckpoint(mlContext);
             // Set the training algorithm 
-            var trainer = mlContext.Regression.Trainers.LightGbm(labelColumnName: "Production", featureColumnName: "Features");
+            var trainer = mlContext.Regression.Trainers.Sdca(labelColumnName: "Production", featureColumnName: "Features");
 
             var trainingPipeline = dataProcessPipeline.Append(trainer);
 

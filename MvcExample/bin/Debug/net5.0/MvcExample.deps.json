@@ -327,6 +327,30 @@
           "MvcExample.dll": {}
         }
       },
+      "LightGBM/2.2.3": {
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/lib_lightgbm.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/lib_lightgbm.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/lib_lightgbm.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/lightgbm.exe": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
       "Microsoft.ML/1.6.0": {
         "dependencies": {
           "Microsoft.ML.CpuMath": "1.6.0",
@@ -477,6 +501,22 @@
           "lib/netstandard2.0/Microsoft.ML.FastTree.dll": {}
         }
       },
+      "Microsoft.ML.LightGbm/1.5.0-preview2": {
+        "dependencies": {
+          "LightGBM": "2.2.3",
+          "Microsoft.ML": "1.6.0",
+          "Microsoft.ML.FastTree": "1.5.0-preview2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.LightGbm.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.5.28711.2"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ML.LightGbm.dll": {}
+        }
+      },
       "Microsoft.NETCore.Platforms/1.1.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
       "Newtonsoft.Json/13.0.1": {
@@ -567,7 +607,7 @@
       "MvcExampleML.Model/1.0.0": {
         "dependencies": {
           "Microsoft.ML": "1.6.0",
-          "Microsoft.ML.FastTree": "1.5.0-preview2"
+          "Microsoft.ML.LightGbm": "1.5.0-preview2"
         },
         "runtime": {
           "MvcExampleML.Model.dll": {}
@@ -2282,6 +2322,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "LightGBM/2.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HFXul6uz1YWe6orrXz1eJAFvvxYVWag7HG6h4XVubR+epVxaBJWFAprdMlkP4SQ4RxaEibFeO++1OzXc75dJDA==",
+      "path": "lightgbm/2.2.3",
+      "hashPath": "lightgbm.2.2.3.nupkg.sha512"
+    },
     "Microsoft.ML/1.6.0": {
       "type": "package",
       "serviceable": true,
@@ -2309,6 +2356,13 @@
       "sha512": "sha512-YORU9USci36Vcy0UhbaQiSZi7qldWgYq90QoYg35wPdzt4iPxLEhXtWubeJD8EA5L47AfxvULu82MBtB+N9cVA==",
       "path": "microsoft.ml.fasttree/1.5.0-preview2",
       "hashPath": "microsoft.ml.fasttree.1.5.0-preview2.nupkg.sha512"
+    },
+    "Microsoft.ML.LightGbm/1.5.0-preview2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9v5RsopL2CRUHOlOVhgZX6oaYq5F4dwmXIUXIUnj0nCW8xo57WGSlZ60hYjWnyYvHvjzUSbXF6sDkyKSz7wnZw==",
+      "path": "microsoft.ml.lightgbm/1.5.0-preview2",
+      "hashPath": "microsoft.ml.lightgbm.1.5.0-preview2.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
